@@ -21,7 +21,7 @@ A diagram can only be as precise as the drawer's understanding of the mechanism.
 | F compilers / security | IR before/after each rule; attack steps | the pass applied to the example | rewritten nodes, blocked edges |
 
 Rules:
-- **Validate the model against every worked example in the paper first** (every value the paper states for its worked example, asserted from the trace) and keep these as `MODEL_CHECKS` in the film; `argument_audit.py` fails (R7) if any is missing or false.
+- **Validate the model against every worked example in the paper first** (every value the paper states for its worked example, asserted from the trace) and keep these as `ARGUMENT["model_checks"]` in the film; `argument_audit.py` fails (R7) if any is missing or false.
 - **Derive, never type**, every label, count, order and timing a mechanism beat shows. One early cut animated an accumulation as a uniform fill; the trace showed a different order, so the picture was wrong in a way no reviewer of a still would catch.
 - **Replays at a stated rate.** When the film replays cycles, steps or events, it plays at a constant, stated rate ("simulated replay · N cycles / s"), and the replay's landmarks coincide with the narration's (a refill lands on the word "refill").
 
@@ -39,7 +39,7 @@ Rules:
 | a packet, request or token in a queue | the queue's slots, each holding its item's id | slots (motion_kit `slot_node`) |
 
 **Compute, then assert.**
-- `data_kit.loop_nest_tile(index_fn, mapping, j, outer)` gives the operand coordinates a storage at level j holds for given outer iterations (for loop-nest papers). Other archetypes: compute the contents from the re-implementation's state (cache sets, queue contents, KV pages).
+- `data_kit.loop_nest_tile(index_fn, mapping, j, outer)` gives the operand coordinates a storage wrapping loops j..L holds for given outer iterations (for loop-nest papers; `loopnest_sim.LoopNest.tile` numbers that storage as level j−1). Other archetypes: compute the contents from the re-implementation's state (cache sets, queue contents, KV pages).
 - Assert the computed cell count against every capacity or traffic number on screen.
 - **Derive every partition label from the computed contents.** One early cut labelled two partitions with typed index ranges that the model did not produce. A typed label is a fidelity bug waiting to happen.
 

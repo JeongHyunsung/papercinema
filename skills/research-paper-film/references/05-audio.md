@@ -4,7 +4,7 @@
 
 - **Synthesize music and effects in numpy.** Sample nothing (`scripts/audio/synth.py`).
 - **Instruments:**
-  - `pad_chord`: detuned saws, low-passed, with fades;
+  - `pad`: detuned saws, low-passed, with fades;
   - `bell`: inharmonic partials with an exponential decay;
   - `tick`: a short sine plus noise;
   - `thump`: a sub with a pitch drop;

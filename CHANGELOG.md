@@ -4,6 +4,10 @@ How the skill got here: each version is a fix for what the previous one got wron
 
 It was distilled from a real production, B-Flex (DAC 2026), which needed five film versions and two rounds of figure feedback. The skill turns that history into a **quality bar**, **draft-1 defaults**, **automated gates** and (since v7) an **independent review loop**: a generator makes each cut, a reviewer that never sees how it was made judges it against the paper, and the user joins every K rounds. The full case-study source is in `examples/bflex/`.
 
+Lowercase `v` numbers below are skill versions. The B-Flex film's own cuts are written "case-study v4" and "V5" in `examples/bflex/`.
+
+**v1 and v2: the case study as a skill.** v1 packaged the B-Flex production as phases, scripts and the case-study source. v2 added the quality bar (A–F: science, pacing, craft, sound, figures) and the first measurable gates, which the from-scratch rebuild below passed; its lessons are in `references/11-iteration-lessons.md`.
+
 **v3: motion, camera and linkage.** A from-scratch rebuild with v2 passed every gate and reproduced the paper's Table 1 exactly. Yet next to the case-study film it was visibly static, with floating annotations:
 
 | | case-study v4 | rebuild (v2 skill) |
@@ -34,7 +38,7 @@ v3 adds:
 - `references/16-argument-and-data.md`.
 - `references/17-story-spine.md`.
 
-**v7: the independent review loop.** Through v6 the producing agent reviewed its own film by playing critics in turn, so it judged what it meant rather than what was on screen, and the user saw the film only at the end. v7 splits the work:
+**v7: the independent review loop.** Before v7 the producing agent reviewed its own film by playing critics in turn, so it judged what it meant rather than what was on screen, and the user saw the film only at the end. v7 splits the work:
 - an **orchestrator** (the agent talking to the user) runs intake, routes files and never makes the film;
 - a **generator** subagent builds each cut from the paper and the brief, passes its gates, and revises from the reviewer's feedback only;
 - a **reviewer** subagent, fresh every round, sees only the delivered video and subtitles, the paper, user-supplied data, its own earlier reviews and, every K rounds, the user's comments; it writes `review.md` (verdict, earlier findings' status, new findings with severity and a checkable "done when", requests);

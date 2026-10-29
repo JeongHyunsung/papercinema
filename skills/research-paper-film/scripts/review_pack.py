@@ -83,10 +83,10 @@ err = run(["ffmpeg", "-nostats", "-i", a.video, "-vf",
 cuts = [float(x) for x in re.findall(r"pts_time:([\d.]+)", err)]
 
 # ---- contact sheets + motion audit ----------------------------------------------------------
-sheets = run([sys.executable, "-I", os.path.join(HERE, "contact_sheet.py"), a.video, "--fps", "1",
+sheets = run([sys.executable, os.path.join(HERE, "contact_sheet.py"), a.video, "--fps", "1",
               "--out", os.path.join(a.out, "sheet.png")], check=True).stdout.split()
 mj = os.path.join(a.out, "motion.json")
-mout = run([sys.executable, "-I", os.path.join(HERE, "motion_audit.py"), a.video, "--json", mj],
+mout = run([sys.executable, os.path.join(HERE, "motion_audit.py"), a.video, "--json", mj],
            check=True).stdout
 motion = json.load(open(mj))
 

@@ -12,7 +12,7 @@ description: "Turn any CS/EE research paper into a scientifically verified, narr
 - slide figures in the same visual language;
 - on request, an audit of an existing film against the paper.
 
-**Origin.** The quality bar, defaults and gates come from a production that took five film versions and two figure rounds of author feedback (case study: B-Flex, DAC 2026, a search-and-circuits paper). A later from-scratch rebuild was scientifically stronger than that film, yet visibly weaker in motion, camera and linkage. That gap is now part of the bar (G and L gates; see `examples/bflex/docs/FRESH_REBUILD_POSTMORTEM.md`). A film that passes every one of those gates can still leave no moment behind, so v4 adds **peaks**: 3–6 planned moments where a verified fact lands with setup, one reveal, sound and camera together, and at most two style breaks per film (W gates; references/15). The first author review of a v4 film then asked for two more things, now gates R1–R6 (references/16): containers show the **elements** they hold, computed from the re-implementation; and the argument anticipates the **skeptic** (doubt → test → result, definitions before use, spread next to every aggregate). The rules apply to **any** CS/EE paper; B-Flex appears only as examples.
+**Origin.** The quality bar, defaults and gates come from a production that took five film versions and two figure rounds of author feedback (case study: B-Flex, DAC 2026, a search-and-circuits paper). A later from-scratch rebuild was scientifically stronger than that film, yet visibly weaker in motion, camera and linkage. That gap is now part of the bar (G and L gates; see `examples/bflex/docs/FRESH_REBUILD_POSTMORTEM.md`). A film that passes every one of those gates can still leave no moment behind, so v4 adds **peaks**: 3–6 planned moments where a verified fact lands with setup, one reveal, sound and camera together, and at most two style breaks per film (W gates; references/15). The first author review of a v4 film then asked for two more things, now gates R1–R11 (references/16): containers show the **elements** they hold, computed from the re-implementation; and the argument anticipates the **skeptic** (doubt → test → result, definitions before use, spread next to every aggregate). The rules apply to **any** CS/EE paper; B-Flex appears only as examples.
 
 **v7: the review loop.** Before v7 the producing agent reviewed its own film as a series of imagined critics, and it saw what it meant rather than what was on screen. Now the work is split (references/18):
 - the **orchestrator** (you, the agent talking to the user) runs intake, routes files and talks to the user; it never makes the film;
@@ -24,7 +24,7 @@ The gates still apply: the generator never hands off a cut with a gate FAIL it c
 
 **If you were spawned as the generator or the reviewer,** you are not the orchestrator: read what references/18 §1 lists for your role and skip every instruction addressed to the orchestrator (intake, AskUserQuestion, talking to the user).
 
-If `references/`, `scripts/`, `templates/` and `examples/` sit next to this file (the GitHub repo `research-paper-film`), use them. Every script has a usage docstring.
+If `references/`, `scripts/`, `templates/` and `examples/` sit next to this file (the GitHub repo `JeongHyunsung/papercinema`), use them. Every script has a usage docstring.
 
 - `references/18-review-loop.md` — roles, workspace routing, a round, requests to the user, spawning, stopping. **The orchestrator reads it before intake.**
 - `references/19-reviewer.md` + `templates/review.md` + `scripts/review_pack.py` — the reviewer's brief, its feedback format, and its video-only view of the film (stills, contact sheets, timeline of picture change, camera and sound, motion gates, loudness, transcript). Only the reviewer reads 19.
@@ -47,12 +47,13 @@ If `references/`, `scripts/`, `templates/` and `examples/` sit next to this file
 
 ## 1. Classify the paper, then ask once
 
-**Classify the paper.** Pick one archetype, or two if it mixes them (references/13). The archetype fixes five things:
+**Classify the paper.** Pick one archetype, or two if it mixes them (references/13). The archetype fixes six things:
 - the worked example;
 - the mechanism beat;
 - the result visuals;
 - the conditions every number needs;
-- the wording traps.
+- the wording traps;
+- the peak candidates (references/15).
 
 | Archetype | Covers |
 |---|---|
@@ -109,7 +110,7 @@ The orchestrator asks these, writes the answers to `gen/BRIEF.md` (generator onl
 - **Restraint is not stillness.**
   - No decorative motion, but every second carries a meaningful change: a camera move toward the event, a token on a path, a value written, a branch cut.
   - Gates G1–G4: static seconds ≤ 25 %, no freeze > 3 s, camera motion ≥ 30 % of seconds (≥ 40 % in the centrepiece), mean change ≥ 2 %.
-- **Understand before drawing.** Identify the paper's core domain concepts and build an executable model that reproduces the paper's worked examples (accelerators: `scripts/loopnest_sim.py`, a cycle-level loop nest giving occupancy, per-PE MAC order, refills and data paths). Validate it first (`MODEL_CHECKS`), then derive every label, count, order and timing a mechanism beat shows from its trace.
+- **Understand before drawing.** Identify the paper's core domain concepts and build an executable model that reproduces the paper's worked examples (accelerators: `scripts/loopnest_sim.py`, a cycle-level loop nest giving occupancy, per-PE MAC order, refills and data paths). Validate it first (`ARGUMENT["model_checks"]`), then derive every label, count, order and timing a mechanism beat shows from its trace.
 - **One canonical glyph per recurring concept.** A concept shown in three or more beats (storage, PE, queue, node) gets one detailed glyph with its anatomy alive (storage: `data_kit.Storage`: write/read ports with counters, element states, occupancy), used in every scene and figure. Lay it (and everything beside text) out from measured sizes, never fixed offsets, so it stays clean when slide figures enlarge text; route wires and tethers through gaps.
 - **Show the data, not the box.** A mechanism about storage, movement, reuse or partitioning shows each container's contents element by element (2-D grids; 3-D tensors as slabs), computed from the re-implementation and asserted against the numbers on screen. Partition labels are derived, never typed.
 - **Cover every mechanism, say each thing once.** List the paper's mechanisms and effects and give each a beat or a reasoned omission; never show a result without the mechanism behind it. One strongest visual per claim; no weaker re-draws, no detail that no claim needs. Meet the runtime by cutting, not by speeding speech (R9–R11).

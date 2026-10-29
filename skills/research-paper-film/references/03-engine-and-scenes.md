@@ -9,7 +9,7 @@ Manim and Blender are options. A plain pycairo renderer gives a few things they 
 - trivial parallel chunked rendering;
 - the same drawing code for stills, video, audits and SVG/PDF figures.
 
-The case study used only pycairo, numpy and ffmpeg.
+For rendering, the case study used only pycairo, numpy and ffmpeg (voice and alignment: references/04 and 05).
 
 ## `scripts/engine.py` (copy into `src/`)
 
@@ -21,6 +21,12 @@ The case study used only pycairo, numpy and ffmpeg.
 - **`Post`**: the post-processing hook. In the white identity it is the identity function.
 
 Film-specific code lives in `film.py`.
+
+## `scripts/scene_kit.py` (copy into `src/`)
+
+- `OVERLAY` and the `@overlay` decorator: the registry of overlays (act labels, captions, tags, HUDs) that figure mode can remove.
+- `kfv`: keyframed camera values. `StageCam`: the look-at stage camera. `bb_text`, `chip`: billboard text and chips. `xmark`, `check`, `marker`: small glyphs.
+- `begin_frame()` is in `scripts/motion_kit.py`.
 
 ## `scripts/motion_kit.py` (copy into `src/` with engine.py and scene_kit.py)
 
@@ -52,7 +58,7 @@ This is the craft layer distilled from the case study:
 - **Data-driven everything.** Graph nodes, edges, the walk, candidates, the tree and replays come from `scene_data.json`. Add `assert`s for invariants, e.g. "each replay step is an edge of the reference graph" or "the expected Q sequence equals the paper's".
 - **Exact counters.** A counter shows the number of cells actually drawn, and lands exactly on the paper's value.
 - **Numpy layers** for huge unit charts (millions of cells): composite a numpy raster into the frame. Remember that this layer cannot become vector in SVG/PDF exports.
-- **Motion blur**: `blur_n(t)` returns the number of sub-frames (1 = no blur). Turn it on only for fast camera moves. Use a 180° shutter.
+- **Motion blur**: `blur_n(t)` (defined in `film.py`; see `examples/bflex/src/film.py`) returns the number of sub-frames (1 = no blur). Turn it on only for fast camera moves. Use a 180° shutter.
 
 ## Review loop
 

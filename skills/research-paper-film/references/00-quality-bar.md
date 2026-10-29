@@ -90,7 +90,7 @@ A film can be accurate number by number and still lose a careful viewer: a conta
 | R4 | Every aggregate (geomean, mean, total) shows its spread: range, wins, n | audit strings |
 | R5 | Mechanism beats about storage or data show element-level contents, computed (`data_kit.loop_nest_tile` or the model's state) and asserted against the numbers on screen; partition labels derived, not typed | argument map + asserts |
 | R6 | Baselines and ablations never wear the method's colour or position | colours in the argument map |
-| R7 | The paper's core domain concepts are captured in an executable model, validated against the paper's worked examples; every data mechanism is drawn from its trace (labels, counts, order, timing) | `MODEL_CHECKS` in the argument map |
+| R7 | The paper's core domain concepts are captured in an executable model, validated against the paper's worked examples; every data mechanism is drawn from its trace (labels, counts, order, timing) | `ARGUMENT["model_checks"]` in the argument map |
 | R8 | Every concept shown in ≥ 3 beats has one canonical, detailed glyph (storage: ports + counters, element states, occupancy) used in every scene and figure | `glyphs` in the argument map |
 
 ## D. Sound and delivery

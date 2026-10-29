@@ -2,7 +2,8 @@
 
 Put your tables in an `edl_config.py` next to film.py (T_START, SEGMENTS,
 ANCHORS, SPLITS); this module imports it. Without one, the example tables
-below are used.
+below are used. Narration files are read from ../narration (override with
+the NARRATION_DIR environment variable).
 
 The animation keeps its own designed clock t_anim (timing constants in
 film.py). The film clock t drives it through a monotone piecewise-linear map
@@ -38,12 +39,16 @@ SPLITS = {}          # e.g. {"L04": ("L04a", "L04b", 9)}
 
 sys.path.insert(1, os.getcwd())         # run from the project's src/
 try:                                    # project tables override the examples
-    from edl_config import T_START, SEGMENTS, ANCHORS      # noqa: F811
-    from edl_config import SPLITS                           # noqa: F811
+    import edl_config as _cfg
 except ImportError as _e:
-    if "edl_config" not in str(_e):
+    if _e.name != "edl_config":
         raise
     print("edl.py: no edl_config.py found - using the EXAMPLE tables", file=sys.stderr)
+else:
+    T_START = getattr(_cfg, "T_START", T_START)
+    SEGMENTS = getattr(_cfg, "SEGMENTS", SEGMENTS)
+    ANCHORS = getattr(_cfg, "ANCHORS", ANCHORS)
+    SPLITS = getattr(_cfg, "SPLITS", SPLITS)
 
 _KF, _KA = [0.0], [T_START]
 for ta, df, _ in SEGMENTS:

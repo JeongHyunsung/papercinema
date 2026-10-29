@@ -22,7 +22,8 @@ this trace, and the paper's own numbers are asserted against it.
 Conventions (Timeloop-style unified hierarchy, 1-based levels): a storage at level j
 holds the footprint of loops j+1..L for the current iteration of loops 1..j (the loop at level
 j itself iterates outside it for temporal levels); one instance per combination of the
-spatial loops above j. Temporal loops are nested in mapping order; the innermost temporal
+spatial loops above j. (`data_kit.loop_nest_tile(..., j, ...)` counts from the first wrapped
+loop, so its j equals this level + 1.) Temporal loops are nested in mapping order; the innermost temporal
 loop advances every cycle.
 """
 import itertools, math

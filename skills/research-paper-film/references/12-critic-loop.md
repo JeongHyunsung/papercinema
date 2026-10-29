@@ -25,7 +25,7 @@ Run `scripts/gate.py` at K4–K6 (with `--motion motion.json --centre <act>` and
 
 ## Acting on a review
 
-- Read the previous round's `review.md`, `exchange/rulings.md` and `exchange/generator.md`. Nothing else from outside `gen/`.
+- Read the previous round's `review.md`, `exchange/rulings.md` and `exchange/generator.md`. Nothing else from outside `gen/` except what references/18 allows the generator to open (the paper, `materials/`, the skill files, earlier deliverables).
 - Every BLOCKING, MAJOR and MINOR finding gets an outcome in `gen/STATE.md`: fixed (to its "Done when") or disputed (a request to the user citing the paper or brief). Nothing is skipped silently. Findings marked "pending Q…" need no action yet.
 - Findings are symptoms; you choose the cure. Fidelity (SKILL.md §2) outranks any reviewer or human request.
 - A TASTE finding never overrides the brief and may be declined ("declined: taste") unless it is tagged `source: human`; a `source: human` finding is the user's voice and is MAJOR by default.

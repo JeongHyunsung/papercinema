@@ -3,7 +3,7 @@
 ```
 (paths relative to skills/research-paper-film/)
 SKILL.md                 the skill: ask-once intake, non-negotiables, draft-1 defaults,
-                         checkpoints with critic loops, phases
+                         the review loop, generator checkpoints, phases
 references/00-quality-bar.md        definition of done (science, pacing, craft, sound, figures)
 references/11-iteration-lessons.md  what each earlier version got wrong -> rules for draft 1
 references/12-critic-loop.md        the generator's checkpoints K1-K7 and pre-handoff gates
@@ -23,7 +23,7 @@ references/17-story-spine.md        story arc (title as the answer, one climax, 
 references/01..10                   one deep-dive per phase + a table of pitfalls
 templates/film_plan.md              the plan to fill in before building (archetype, walk instance vs replay,
                                     beats, shot list, linkage map, results)
-templates/               brief, claim ledger, storyboard, audit report
+templates/               brief, storyboard, verification table, review, audit report
 scripts/
   engine.py              pycairo canvas in a 1920x1080 design space, easing, 3-D projection
   scene_kit.py           overlays, keyframes, look-at stage camera, billboard text, chips, markers
@@ -39,7 +39,7 @@ scripts/
   subtitles.py           SRT cues timed by spoken-word count
   audit.py               readability audit (how long each string is readable)
   gate.py                PASS/FAIL gates: readability, EDL, loudness, durations, SRT, mix,
-                         motion (G1-G4, --motion)
+                         motion (--motion), peaks (--wow), argument (--arg)
   motion_audit.py        per-second motion and camera measurement of a video (static %, freezes,
                          camera %, mean change; per act)
   linkage_audit.py       finds findings (=, ≠, →, δ, pruned, conflict…) drawn without an anchor
@@ -64,7 +64,7 @@ scripts/
                          lint_figs (min text pt, aspect, fonts, identical crops),
                          verify_vectors, setup_fonts (true Inter Regular for cairo)
 examples/
-  gallery/               one slide figure per archetype, built only from viz_kit (gallery.py)
+  gallery/               five slide figures for different archetypes, built only from viz_kit (gallery.py)
   minimal/               an ~11 s toy film that runs the whole pipeline (run_demo.sh)
   motion_kit_demo/       a 12 s mechanism beat built with motion_kit; passes G1-G4 and L1
   peak_demo/             a 30 s, 3-peak demo with 2 signature breaks; passes W1-W7, G1-G4, L1

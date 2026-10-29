@@ -75,7 +75,7 @@ Round r = 1, 2, …
    - Before handing off, run the pre-handoff gates (references/12): motion, linkage, peaks, argument, readability, EDL, loudness and speech (D1–D3). Fix every FAIL it can.
    - Hand off `rounds/rNN/deliverable/film.mp4` + `film.srt`. Reply to the orchestrator with three things only: `done`, one gate line (`gates: all PASS`, or `gates: FAIL G2, W5` with the unfixed ones), and any requests (§5). No description of the film.
 2. **Human review** — when r mod K = 0, or when this cut is a ship candidate (step 5). (A `human.md` can also exist on other rounds when the user commented on the film while answering a request, §5; the reviewer handles every round's `human.md` the same way.)
-   - The orchestrator sends the cut to the user (SendUserFile, render), says which round it is and that their comments go to the reviewer, and asks for comments, or approval if it is a ship candidate.
+   - The orchestrator gives the user the path of the rendered cut (and attaches it if the host offers a file tool), says which round it is and that their comments go to the reviewer, and asks for comments, or approval if it is a ship candidate.
    - Save the reply verbatim to `rounds/rNN/human.md` (append, with the time, if the file already holds earlier comments for this round). "No comments" is valid.
    - Do not summarise, rank or answer the comments; route them.
 3. **Reviewer reviews** — a fresh subagent (§7). It builds its view with `scripts/review_pack.py`, follows references/19, writes `rounds/rNN/review.md` (`templates/review.md`) and a copy in `review/`. Verdict: **SHIP** (no BLOCKING or MAJOR finding open) or **REVISE**.

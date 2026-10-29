@@ -1,6 +1,6 @@
 # 13: CS/EE paper archetypes: what to show, and how to say it
 
-Most CS/EE papers fit one archetype, or a mix of two. The archetype decides five things:
+Most CS/EE papers fit one archetype, or a mix of two. The archetype decides six things:
 
 1. the **worked example** that carries the film;
 2. the **mechanism beat**, i.e. the centrepiece of Act III;

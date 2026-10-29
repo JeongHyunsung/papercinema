@@ -5,4 +5,6 @@ out/
 *.mp4
 *.mov
 *.wav
+skills/research-paper-film/examples/minimal/narration/lines.json
+skills/research-paper-film/examples/minimal/narration/words.json
 !docs/assets/*.mp4

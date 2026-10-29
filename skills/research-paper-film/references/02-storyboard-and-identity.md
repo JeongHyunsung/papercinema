@@ -38,7 +38,7 @@ Every row of the storyboard names its **shot**, not only its content: establish 
 - what must be understood before moving on;
 - source (§, Fig., Table).
 
-**The timing sheet is code.** Put named constants at the top of `film.py` (`T_STAGE`, `T_S1`, `T_CONF`…) and export them as `film.CUES` for the audio. After a narration retime, generate the film-clock timing sheet from the EDL (`timing_sheet.py`).
+**The timing sheet is code.** Put named constants at the top of `film.py` (`T_STAGE`, `T_S1`, `T_CONF`…) and export them as `film.CUES` for the audio. After a narration retime, generate the film-clock timing sheet from the EDL (`timing_sheet.py` (a per-project script; the case study's is `examples/bflex/src/timing_sheet.py`)).
 
 ## Identity tokens (white identity used in the case study)
 

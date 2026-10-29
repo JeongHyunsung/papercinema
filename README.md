@@ -53,7 +53,7 @@ Tools such as [Paper2Video](https://arxiv.org/abs/2510.05096) and [ResearchStudi
 
 **Manual**: copy `skills/research-paper-film/` to `~/.claude/skills/research-paper-film/`.
 
-**Claude apps**: zip `skills/research-paper-film/` and upload it under Settings → Capabilities → Skills.
+**Claude apps**: the audit mode (checking an existing film against its paper) and figure planning work from a zipped `skills/research-paper-film/` uploaded under Settings → Capabilities → Skills. The film pipeline and the review loop need Claude Code: subagents, ffmpeg and the local voice and speech models.
 
 Then attach your paper and ask:
 
@@ -81,7 +81,7 @@ An agent that makes a film and then reviews it sees what it meant, not what is o
 
 From the first production with the review loop (on a paper not yet published; its full record will be added once the paper is public):
 
-| | |
+| | First production with the loop |
 |---|---|
 | Rounds | 6 film rounds, with the author reviewing rounds 2, 4 and 6 |
 | Findings | 46: 1 BLOCKING · 20 MAJOR · 25 MINOR. 14 came from the author's comments, the rest from the reviewer. |

@@ -6,7 +6,8 @@ a grid of W[k, n] cells, identical in both branches, says it at a glance.
 
 Compute contents (never type them)
   loop_nest_tile(index_fn, mapping, j, outer)   the set of operand coordinates a storage
-        placed at loop level j (wrapping loops j..L, 1-based) holds, for the given values of
+        placed at loop level j (wrapping loops j..L, 1-based; `loopnest_sim.LoopNest.tile`
+        numbers the same storage as level j-1, the loop outside it) holds, for the given values of
         the loops above it (outer = {loop position: iteration}); spatial loops above it are
         the branch index. index_fn: list of affine index expressions, each a tuple of dims.
   tile_ranges(cells)                            per-axis "lo–hi" ranges for labels ("K0–7")
