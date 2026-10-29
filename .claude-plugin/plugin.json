@@ -1,0 +1,21 @@
+{
+  "name": "research-paper-film",
+  "version": "7.0.0",
+  "description": "Turn a CS/EE research paper into a verified, narrated explainer film (4K60, code-rendered) and slide figures: the mechanism rebuilt and animated, key results staged, every cut checked by an independent reviewer and you every K rounds.",
+  "author": {
+    "name": "Hyunsung Jeong"
+  },
+  "license": "MIT",
+  "keywords": [
+    "papercinema",
+    "research",
+    "paper",
+    "video",
+    "explainer",
+    "motion-graphics",
+    "slides",
+    "figures",
+    "review-loop",
+    "computer-architecture"
+  ]
+}

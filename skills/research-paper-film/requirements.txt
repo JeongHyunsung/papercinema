@@ -1,0 +1,11 @@
+pycairo>=1.23
+numpy
+scipy
+pillow
+soundfile
+pyloudnorm
+kokoro-onnx>=0.4
+sherpa-onnx
+librosa          # optional: pitch metrics in voice casting
+cairosvg         # figure vector verification
+fonttools        # setup_fonts.py

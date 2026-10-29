@@ -1,0 +1,135 @@
+{
+ "voice": "af_heart",
+ "speed": 0.9,
+ "engine": "Kokoro-82M v1.0 (kokoro-onnx 0.6.1)",
+ "sr": 24000,
+ "duration": 98.688,
+ "lines": [
+  {
+   "id": "L01",
+   "start": 1.0,
+   "end": 5.561,
+   "sub": "A flip-flop has one job: on a rising clock, capture D and hold it.",
+   "tts": "A flip-flop has one job: on a rising clock, capture dee, and hold it."
+  },
+  {
+   "id": "L02",
+   "start": 6.061,
+   "end": 10.01,
+   "sub": "This one, from the earlier tool SeGen, passes its test vector.",
+   "tts": "This one, from the earlier tool See-Jen, passes its test vector."
+  },
+  {
+   "id": "L03",
+   "start": 10.41,
+   "end": 14.686,
+   "sub": "Change one transition, and it outputs zero where it must output one.",
+   "tts": "Change one transition, and it outputs zero, where it must output one."
+  },
+  {
+   "id": "L04",
+   "start": 15.486,
+   "end": 22.823,
+   "sub": "A flip-flop can be modeled as a state machine. With three state bits, candidate tables exceed ten to the nineteenth.",
+   "tts": "A flip-flop can be modeled as a state machine. With three state bits, candidate tables exceed ten to the nineteenth."
+  },
+  {
+   "id": "L05",
+   "start": 23.173,
+   "end": 24.482,
+   "sub": "Beyond brute force.",
+   "tts": "Beyond brute force."
+  },
+  {
+   "id": "L06",
+   "start": 25.382,
+   "end": 27.726,
+   "sub": "B-Flex starts from behavior instead.",
+   "tts": "Bee-Flex starts from behavior, instead."
+  },
+  {
+   "id": "L07",
+   "start": 28.326,
+   "end": 33.443,
+   "sub": "Its reference behavior graph covers every input order a D flip-flop must handle.",
+   "tts": "Its reference behavior graph covers every input order a dee flip-flop must handle."
+  },
+  {
+   "id": "L08",
+   "start": 33.993,
+   "end": 41.321,
+   "sub": "The failing sequence is one path through it, and the graph requires Q to stay at one, where SeGen-20 gave zero.",
+   "tts": "The failing sequence is one path through it. And the graph requires queue to stay at one, where See-Jen twenty gave zero."
+  },
+  {
+   "id": "L09",
+   "start": 42.121,
+   "end": 48.3,
+   "sub": "Candidates grow one stable transition at a time, and each must match an edge of the reference graph.",
+   "tts": "Candidates grow one stable transition at a time, and each must match an edge of the reference graph."
+  },
+  {
+   "id": "L10",
+   "start": 48.9,
+   "end": 56.371,
+   "sub": "Here the clock falls, so Q must stay at zero. Two candidate states would output one, so those branches are pruned.",
+   "tts": "Here, the clock falls, so queue must stay at zero. Two candidate states would output one, so those branches are pruned."
+  },
+  {
+   "id": "L11",
+   "start": 57.071,
+   "end": 65.477,
+   "sub": "Deeper in, a settling path needs a table entry that an earlier transition set differently. That entry conflict prunes the branch.",
+   "tts": "Deeper in, a settling path needs a table entry that an earlier transition set differently. That entry conflict prunes the branch."
+  },
+  {
+   "id": "L12",
+   "start": 66.277,
+   "end": 71.026,
+   "sub": "Pruning early makes the two-bit search 20,000 times faster than brute force.",
+   "tts": "Pruning early makes the two-bit search twenty thousand times faster than brute force."
+  },
+  {
+   "id": "L13",
+   "start": 71.726,
+   "end": 80.478,
+   "sub": "At three state bits, B-Flex finds all 568 million valid state machines in its search space, in about thirteen minutes.",
+   "tts": "At three state bits, Bee-Flex finds all five hundred sixty-eight million valid state machines in its search space, in about thirteen minutes."
+  },
+  {
+   "id": "L14",
+   "start": 81.578,
+   "end": 87.959,
+   "sub": "Twenty of the 468 simplest were sampled and turned into transistor-level schematics.",
+   "tts": "Twenty of the four hundred sixty-eight simplest were sampled and turned into transistor-level schematics."
+  },
+  {
+   "id": "L15",
+   "start": 88.559,
+   "end": 95.584,
+   "sub": "One of them is FF1. When the clock rises, its state settles in two steps, and Q flips on the first.",
+   "tts": "One of them is F F one. When the clock rises, its state settles in two steps, and queue flips on the first."
+  },
+  {
+   "id": "L16",
+   "start": 96.284,
+   "end": 105.126,
+   "sub": "In SPICE, at 0.9 volts, its sequencing overhead is 2.53 times lower than a transmission-gate flip-flop's,",
+   "tts": "In spice, at zero point nine volts, its sequencing overhead is two point five three times lower than a transmission-gate flip-flop's,"
+  },
+  {
+   "id": "L17",
+   "start": 105.376,
+   "end": 106.844,
+   "sub": "at a higher energy cost.",
+   "tts": "at a higher energy cost."
+  },
+  {
+   "id": "L18",
+   "start": 107.844,
+   "end": 112.337,
+   "sub": "B-Flex: a broader flip-flop design space, searched exhaustively.",
+   "tts": "Bee-Flex. A broader flip-flop design space, searched exhaustively."
+  }
+ ]
+}

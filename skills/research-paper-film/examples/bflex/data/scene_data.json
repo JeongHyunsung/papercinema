@@ -1,0 +1,6385 @@
+{
+ "rbg": {
+  "nodes": [
+   {
+    "i": 0,
+    "o": 0,
+    "col": 0,
+    "row": 0
+   },
+   {
+    "i": 0,
+    "o": 1,
+    "col": 3,
+    "row": 1
+   },
+   {
+    "i": 1,
+    "o": 0,
+    "col": 1,
+    "row": 0
+   },
+   {
+    "i": 1,
+    "o": 1,
+    "col": 2,
+    "row": 1
+   },
+   {
+    "i": 2,
+    "o": 0,
+    "col": 3,
+    "row": 0
+   },
+   {
+    "i": 2,
+    "o": 1,
+    "col": 0,
+    "row": 1
+   },
+   {
+    "i": 3,
+    "o": 0,
+    "col": 2,
+    "row": 0
+   },
+   {
+    "i": 3,
+    "o": 1,
+    "col": 1,
+    "row": 1
+   }
+  ],
+  "edges": [
+   {
+    "a": [
+     0,
+     0
+    ],
+    "b": [
+     1,
+     0
+    ],
+    "changes_q": false,
+    "rising": true
+   },
+   {
+    "a": [
+     0,
+     0
+    ],
+    "b": [
+     2,
+     0
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     0,
+     1
+    ],
+    "b": [
+     1,
+     0
+    ],
+    "changes_q": true,
+    "rising": true
+   },
+   {
+    "a": [
+     0,
+     1
+    ],
+    "b": [
+     2,
+     1
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     1,
+     0
+    ],
+    "b": [
+     0,
+     0
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     1,
+     0
+    ],
+    "b": [
+     3,
+     0
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     1,
+     1
+    ],
+    "b": [
+     0,
+     1
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     1,
+     1
+    ],
+    "b": [
+     3,
+     1
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     2,
+     0
+    ],
+    "b": [
+     0,
+     0
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     2,
+     0
+    ],
+    "b": [
+     3,
+     1
+    ],
+    "changes_q": true,
+    "rising": true
+   },
+   {
+    "a": [
+     2,
+     1
+    ],
+    "b": [
+     0,
+     1
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     2,
+     1
+    ],
+    "b": [
+     3,
+     1
+    ],
+    "changes_q": false,
+    "rising": true
+   },
+   {
+    "a": [
+     3,
+     0
+    ],
+    "b": [
+     1,
+     0
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     3,
+     0
+    ],
+    "b": [
+     2,
+     0
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     3,
+     1
+    ],
+    "b": [
+     1,
+     1
+    ],
+    "changes_q": false,
+    "rising": false
+   },
+   {
+    "a": [
+     3,
+     1
+    ],
+    "b": [
+     2,
+     1
+    ],
+    "changes_q": false,
+    "rising": false
+   }
+  ]
+ },
+ "tree": {
+  "nodes": [
+   {
+    "id": 0,
+    "parent": null,
+    "depth": 0,
+    "theta": 3.134353960839586,
+    "status": "open",
+    "dfs": 0
+   },
+   {
+    "id": 1,
+    "parent": 0,
+    "depth": 1,
+    "theta": 0.0,
+    "status": "wrong output",
+    "dfs": 1
+   },
+   {
+    "id": 2,
+    "parent": 0,
+    "depth": 1,
+    "theta": 1.107519990781655,
+    "status": "open",
+    "dfs": 2
+   },
+   {
+    "id": 3,
+    "parent": 2,
+    "depth": 2,
+    "theta": 0.014477385500413793,
+    "status": "wrong output",
+    "dfs": 3
+   },
+   {
+    "id": 4,
+    "parent": 2,
+    "depth": 2,
+    "theta": 0.09410300575268965,
+    "status": "open",
+    "dfs": 4
+   },
+   {
+    "id": 5,
+    "parent": 4,
+    "depth": 3,
+    "theta": 0.028954771000827585,
+    "status": "wrong output",
+    "dfs": 5
+   },
+   {
+    "id": 6,
+    "parent": 4,
+    "depth": 3,
+    "theta": 0.06514823475186207,
+    "status": "open",
+    "dfs": 6
+   },
+   {
+    "id": 7,
+    "parent": 6,
+    "depth": 4,
+    "theta": 0.04343215650124138,
+    "status": "wrong output",
+    "dfs": 7
+   },
+   {
+    "id": 8,
+    "parent": 6,
+    "depth": 4,
+    "theta": 0.05790954200165517,
+    "status": "open",
+    "dfs": 8
+   },
+   {
+    "id": 9,
+    "parent": 8,
+    "depth": 5,
+    "theta": 0.05790954200165517,
+    "status": "wrong output",
+    "dfs": 9
+   },
+   {
+    "id": 10,
+    "parent": 6,
+    "depth": 4,
+    "theta": 0.07238692750206897,
+    "status": "wrong output",
+    "dfs": 10
+   },
+   {
+    "id": 11,
+    "parent": 6,
+    "depth": 4,
+    "theta": 0.08686431300248276,
+    "status": "open",
+    "dfs": 11
+   },
+   {
+    "id": 12,
+    "parent": 11,
+    "depth": 5,
+    "theta": 0.08686431300248276,
+    "status": "wrong output",
+    "dfs": 12
+   },
+   {
+    "id": 13,
+    "parent": 4,
+    "depth": 3,
+    "theta": 0.10134169850289655,
+    "status": "wrong output",
+    "dfs": 13
+   },
+   {
+    "id": 14,
+    "parent": 4,
+    "depth": 3,
+    "theta": 0.13753516225393103,
+    "status": "open",
+    "dfs": 14
+   },
+   {
+    "id": 15,
+    "parent": 14,
+    "depth": 4,
+    "theta": 0.11581908400331034,
+    "status": "wrong output",
+    "dfs": 15
+   },
+   {
+    "id": 16,
+    "parent": 14,
+    "depth": 4,
+    "theta": 0.13029646950372414,
+    "status": "open",
+    "dfs": 16
+   },
+   {
+    "id": 17,
+    "parent": 16,
+    "depth": 5,
+    "theta": 0.13029646950372414,
+    "status": "wrong output",
+    "dfs": 17
+   },
+   {
+    "id": 18,
+    "parent": 14,
+    "depth": 4,
+    "theta": 0.14477385500413795,
+    "status": "wrong output",
+    "dfs": 18
+   },
+   {
+    "id": 19,
+    "parent": 14,
+    "depth": 4,
+    "theta": 0.15925124050455172,
+    "status": "open",
+    "dfs": 19
+   },
+   {
+    "id": 20,
+    "parent": 19,
+    "depth": 5,
+    "theta": 0.15925124050455172,
+    "status": "wrong output",
+    "dfs": 20
+   },
+   {
+    "id": 21,
+    "parent": 2,
+    "depth": 2,
+    "theta": 0.17372862600496553,
+    "status": "wrong output",
+    "dfs": 21
+   },
+   {
+    "id": 22,
+    "parent": 2,
+    "depth": 2,
+    "theta": 1.194384303784138,
+    "status": "open",
+    "dfs": 22
+   },
+   {
+    "id": 23,
+    "parent": 22,
+    "depth": 3,
+    "theta": 0.1882060115053793,
+    "status": "wrong output",
+    "dfs": 23
+   },
+   {
+    "id": 24,
+    "parent": 22,
+    "depth": 3,
+    "theta": 0.31126378825889656,
+    "status": "open",
+    "dfs": 24
+   },
+   {
+    "id": 25,
+    "parent": 24,
+    "depth": 4,
+    "theta": 0.2026833970057931,
+    "status": "wrong output",
+    "dfs": 25
+   },
+   {
+    "id": 26,
+    "parent": 24,
+    "depth": 4,
+    "theta": 0.28230901725806895,
+    "status": "open",
+    "dfs": 26
+   },
+   {
+    "id": 27,
+    "parent": 26,
+    "depth": 5,
+    "theta": 0.2171607825062069,
+    "status": "wrong output",
+    "dfs": 27
+   },
+   {
+    "id": 28,
+    "parent": 26,
+    "depth": 5,
+    "theta": 0.2533542462572414,
+    "status": "open",
+    "dfs": 28
+   },
+   {
+    "id": 29,
+    "parent": 28,
+    "depth": 6,
+    "theta": 0.23163816800662068,
+    "status": "wrong output",
+    "dfs": 29
+   },
+   {
+    "id": 30,
+    "parent": 28,
+    "depth": 6,
+    "theta": 0.24611555350703446,
+    "status": "open",
+    "dfs": 30
+   },
+   {
+    "id": 31,
+    "parent": 30,
+    "depth": 7,
+    "theta": 0.24611555350703446,
+    "status": "wrong output",
+    "dfs": 31
+   },
+   {
+    "id": 32,
+    "parent": 28,
+    "depth": 6,
+    "theta": 0.2605929390074483,
+    "status": "wrong output",
+    "dfs": 32
+   },
+   {
+    "id": 33,
+    "parent": 28,
+    "depth": 6,
+    "theta": 0.27507032450786206,
+    "status": "open",
+    "dfs": 33
+   },
+   {
+    "id": 34,
+    "parent": 33,
+    "depth": 7,
+    "theta": 0.27507032450786206,
+    "status": "wrong output",
+    "dfs": 34
+   },
+   {
+    "id": 35,
+    "parent": 26,
+    "depth": 5,
+    "theta": 0.2895477100082759,
+    "status": "wrong output",
+    "dfs": 35
+   },
+   {
+    "id": 36,
+    "parent": 26,
+    "depth": 5,
+    "theta": 0.32574117375931033,
+    "status": "open",
+    "dfs": 36
+   },
+   {
+    "id": 37,
+    "parent": 36,
+    "depth": 6,
+    "theta": 0.30402509550868967,
+    "status": "wrong output",
+    "dfs": 37
+   },
+   {
+    "id": 38,
+    "parent": 36,
+    "depth": 6,
+    "theta": 0.31850248100910344,
+    "status": "open",
+    "dfs": 38
+   },
+   {
+    "id": 39,
+    "parent": 38,
+    "depth": 7,
+    "theta": 0.31850248100910344,
+    "status": "wrong output",
+    "dfs": 39
+   },
+   {
+    "id": 40,
+    "parent": 36,
+    "depth": 6,
+    "theta": 0.3329798665095172,
+    "status": "wrong output",
+    "dfs": 40
+   },
+   {
+    "id": 41,
+    "parent": 36,
+    "depth": 6,
+    "theta": 0.34745725200993105,
+    "status": "open",
+    "dfs": 41
+   },
+   {
+    "id": 42,
+    "parent": 41,
+    "depth": 7,
+    "theta": 0.34745725200993105,
+    "status": "wrong output",
+    "dfs": 42
+   },
+   {
+    "id": 43,
+    "parent": 24,
+    "depth": 4,
+    "theta": 0.3619346375103448,
+    "status": "wrong output",
+    "dfs": 43
+   },
+   {
+    "id": 44,
+    "parent": 24,
+    "depth": 4,
+    "theta": 0.3981281012613793,
+    "status": "open",
+    "dfs": 44
+   },
+   {
+    "id": 45,
+    "parent": 44,
+    "depth": 5,
+    "theta": 0.3764120230107586,
+    "status": "wrong output",
+    "dfs": 45
+   },
+   {
+    "id": 46,
+    "parent": 44,
+    "depth": 5,
+    "theta": 0.39088940851117243,
+    "status": "open",
+    "dfs": 46
+   },
+   {
+    "id": 47,
+    "parent": 46,
+    "depth": 6,
+    "theta": 0.39088940851117243,
+    "status": "wrong output",
+    "dfs": 47
+   },
+   {
+    "id": 48,
+    "parent": 44,
+    "depth": 5,
+    "theta": 0.4053667940115862,
+    "status": "wrong output",
+    "dfs": 48
+   },
+   {
+    "id": 49,
+    "parent": 44,
+    "depth": 5,
+    "theta": 0.41984417951200004,
+    "status": "open",
+    "dfs": 49
+   },
+   {
+    "id": 50,
+    "parent": 49,
+    "depth": 6,
+    "theta": 0.41984417951200004,
+    "status": "wrong output",
+    "dfs": 50
+   },
+   {
+    "id": 51,
+    "parent": 22,
+    "depth": 3,
+    "theta": 0.4343215650124138,
+    "status": "wrong output",
+    "dfs": 51
+   },
+   {
+    "id": 52,
+    "parent": 22,
+    "depth": 3,
+    "theta": 1.324680773287862,
+    "status": "open",
+    "dfs": 52
+   },
+   {
+    "id": 53,
+    "parent": 52,
+    "depth": 4,
+    "theta": 0.4487989505128276,
+    "status": "wrong output",
+    "dfs": 53
+   },
+   {
+    "id": 54,
+    "parent": 52,
+    "depth": 4,
+    "theta": 1.3174420805376552,
+    "status": "open",
+    "dfs": 54
+   },
+   {
+    "id": 55,
+    "parent": 54,
+    "depth": 5,
+    "theta": 0.46327633601324136,
+    "status": "wrong output",
+    "dfs": 55
+   },
+   {
+    "id": 56,
+    "parent": 54,
+    "depth": 5,
+    "theta": 1.2812486167866208,
+    "status": "open",
+    "dfs": 56
+   },
+   {
+    "id": 57,
+    "parent": 56,
+    "depth": 6,
+    "theta": 0.977223521277931,
+    "status": "open",
+    "dfs": 57
+   },
+   {
+    "id": 58,
+    "parent": 57,
+    "depth": 7,
+    "theta": 0.7600627387717241,
+    "status": "open",
+    "dfs": 58
+   },
+   {
+    "id": 59,
+    "parent": 58,
+    "depth": 8,
+    "theta": 0.5718567272663448,
+    "status": "open",
+    "dfs": 59
+   },
+   {
+    "id": 60,
+    "parent": 59,
+    "depth": 9,
+    "theta": 0.4777537215136552,
+    "status": "open",
+    "dfs": 60
+   },
+   {
+    "id": 61,
+    "parent": 60,
+    "depth": 10,
+    "theta": 0.4777537215136552,
+    "status": "wrong output",
+    "dfs": 61
+   },
+   {
+    "id": 62,
+    "parent": 59,
+    "depth": 9,
+    "theta": 0.4922311070140689,
+    "status": "wrong output",
+    "dfs": 62
+   },
+   {
+    "id": 63,
+    "parent": 59,
+    "depth": 9,
+    "theta": 0.5790954200165518,
+    "status": "open",
+    "dfs": 63
+   },
+   {
+    "id": 64,
+    "parent": 63,
+    "depth": 10,
+    "theta": 0.5067084925144828,
+    "status": "wrong output",
+    "dfs": 64
+   },
+   {
+    "id": 65,
+    "parent": 63,
+    "depth": 10,
+    "theta": 0.5211858780148966,
+    "status": "entry conflict",
+    "dfs": 65
+   },
+   {
+    "id": 66,
+    "parent": 63,
+    "depth": 10,
+    "theta": 0.5356632635153104,
+    "status": "entry conflict",
+    "dfs": 66
+   },
+   {
+    "id": 67,
+    "parent": 63,
+    "depth": 10,
+    "theta": 0.5501406490157241,
+    "status": "wrong output",
+    "dfs": 67
+   },
+   {
+    "id": 68,
+    "parent": 63,
+    "depth": 10,
+    "theta": 0.6080501910173793,
+    "status": "open",
+    "dfs": 68
+   },
+   {
+    "id": 69,
+    "parent": 68,
+    "depth": 11,
+    "theta": 0.5646180345161379,
+    "status": "valid",
+    "dfs": 69
+   },
+   {
+    "id": 70,
+    "parent": 68,
+    "depth": 11,
+    "theta": 0.5790954200165518,
+    "status": "wrong output",
+    "dfs": 70
+   },
+   {
+    "id": 71,
+    "parent": 68,
+    "depth": 11,
+    "theta": 0.6152888837675863,
+    "status": "open",
+    "dfs": 71
+   },
+   {
+    "id": 72,
+    "parent": 71,
+    "depth": 12,
+    "theta": 0.5935728055169655,
+    "status": "valid",
+    "dfs": 72
+   },
+   {
+    "id": 73,
+    "parent": 71,
+    "depth": 12,
+    "theta": 0.6080501910173793,
+    "status": "wrong output",
+    "dfs": 73
+   },
+   {
+    "id": 74,
+    "parent": 71,
+    "depth": 12,
+    "theta": 0.6225275765177931,
+    "status": "open",
+    "dfs": 74
+   },
+   {
+    "id": 75,
+    "parent": 74,
+    "depth": 13,
+    "theta": 0.6225275765177931,
+    "status": "wrong output",
+    "dfs": 75
+   },
+   {
+    "id": 76,
+    "parent": 71,
+    "depth": 12,
+    "theta": 0.6370049620182069,
+    "status": "wrong output",
+    "dfs": 76
+   },
+   {
+    "id": 77,
+    "parent": 68,
+    "depth": 11,
+    "theta": 0.6514823475186207,
+    "status": "wrong output",
+    "dfs": 77
+   },
+   {
+    "id": 78,
+    "parent": 59,
+    "depth": 9,
+    "theta": 0.6659597330190344,
+    "status": "wrong output",
+    "dfs": 78
+   },
+   {
+    "id": 79,
+    "parent": 58,
+    "depth": 8,
+    "theta": 0.6804371185194483,
+    "status": "wrong output",
+    "dfs": 79
+   },
+   {
+    "id": 80,
+    "parent": 58,
+    "depth": 8,
+    "theta": 0.8614044372746206,
+    "status": "open",
+    "dfs": 80
+   },
+   {
+    "id": 81,
+    "parent": 80,
+    "depth": 9,
+    "theta": 0.7600627387717241,
+    "status": "open",
+    "dfs": 81
+   },
+   {
+    "id": 82,
+    "parent": 81,
+    "depth": 10,
+    "theta": 0.7166305822704828,
+    "status": "open",
+    "dfs": 82
+   },
+   {
+    "id": 83,
+    "parent": 82,
+    "depth": 11,
+    "theta": 0.6949145040198621,
+    "status": "open",
+    "dfs": 83
+   },
+   {
+    "id": 84,
+    "parent": 83,
+    "depth": 12,
+    "theta": 0.6949145040198621,
+    "status": "wrong output",
+    "dfs": 84
+   },
+   {
+    "id": 85,
+    "parent": 82,
+    "depth": 11,
+    "theta": 0.7093918895202759,
+    "status": "wrong output",
+    "dfs": 85
+   },
+   {
+    "id": 86,
+    "parent": 82,
+    "depth": 11,
+    "theta": 0.7238692750206897,
+    "status": "open",
+    "dfs": 86
+   },
+   {
+    "id": 87,
+    "parent": 86,
+    "depth": 12,
+    "theta": 0.7238692750206897,
+    "status": "wrong output",
+    "dfs": 87
+   },
+   {
+    "id": 88,
+    "parent": 82,
+    "depth": 11,
+    "theta": 0.7383466605211034,
+    "status": "wrong output",
+    "dfs": 88
+   },
+   {
+    "id": 89,
+    "parent": 81,
+    "depth": 10,
+    "theta": 0.7528240460215172,
+    "status": "wrong output",
+    "dfs": 89
+   },
+   {
+    "id": 90,
+    "parent": 81,
+    "depth": 10,
+    "theta": 0.7890175097725518,
+    "status": "open",
+    "dfs": 90
+   },
+   {
+    "id": 91,
+    "parent": 90,
+    "depth": 11,
+    "theta": 0.767301431521931,
+    "status": "open",
+    "dfs": 91
+   },
+   {
+    "id": 92,
+    "parent": 91,
+    "depth": 12,
+    "theta": 0.767301431521931,
+    "status": "wrong output",
+    "dfs": 92
+   },
+   {
+    "id": 93,
+    "parent": 90,
+    "depth": 11,
+    "theta": 0.7817788170223449,
+    "status": "wrong output",
+    "dfs": 93
+   },
+   {
+    "id": 94,
+    "parent": 90,
+    "depth": 11,
+    "theta": 0.7962562025227586,
+    "status": "open",
+    "dfs": 94
+   },
+   {
+    "id": 95,
+    "parent": 94,
+    "depth": 12,
+    "theta": 0.7962562025227586,
+    "status": "wrong output",
+    "dfs": 95
+   },
+   {
+    "id": 96,
+    "parent": 90,
+    "depth": 11,
+    "theta": 0.8107335880231724,
+    "status": "wrong output",
+    "dfs": 96
+   },
+   {
+    "id": 97,
+    "parent": 81,
+    "depth": 10,
+    "theta": 0.8252109735235861,
+    "status": "wrong output",
+    "dfs": 97
+   },
+   {
+    "id": 98,
+    "parent": 80,
+    "depth": 9,
+    "theta": 0.8396883590240001,
+    "status": "wrong output",
+    "dfs": 98
+   },
+   {
+    "id": 99,
+    "parent": 80,
+    "depth": 9,
+    "theta": 0.9337913647766897,
+    "status": "open",
+    "dfs": 99
+   },
+   {
+    "id": 100,
+    "parent": 99,
+    "depth": 10,
+    "theta": 0.8831205155252414,
+    "status": "open",
+    "dfs": 100
+   },
+   {
+    "id": 101,
+    "parent": 100,
+    "depth": 11,
+    "theta": 0.8541657445244137,
+    "status": "wrong output",
+    "dfs": 101
+   },
+   {
+    "id": 102,
+    "parent": 100,
+    "depth": 11,
+    "theta": 0.8686431300248276,
+    "status": "entry conflict",
+    "dfs": 102
+   },
+   {
+    "id": 103,
+    "parent": 100,
+    "depth": 11,
+    "theta": 0.8831205155252414,
+    "status": "entry conflict",
+    "dfs": 103
+   },
+   {
+    "id": 104,
+    "parent": 100,
+    "depth": 11,
+    "theta": 0.8975979010256552,
+    "status": "wrong output",
+    "dfs": 104
+   },
+   {
+    "id": 105,
+    "parent": 100,
+    "depth": 11,
+    "theta": 0.9120752865260691,
+    "status": "valid",
+    "dfs": 105
+   },
+   {
+    "id": 106,
+    "parent": 99,
+    "depth": 10,
+    "theta": 0.9265526720264827,
+    "status": "wrong output",
+    "dfs": 106
+   },
+   {
+    "id": 107,
+    "parent": 99,
+    "depth": 10,
+    "theta": 0.9699848285277242,
+    "status": "open",
+    "dfs": 107
+   },
+   {
+    "id": 108,
+    "parent": 107,
+    "depth": 11,
+    "theta": 0.9410300575268965,
+    "status": "wrong output",
+    "dfs": 108
+   },
+   {
+    "id": 109,
+    "parent": 107,
+    "depth": 11,
+    "theta": 0.9555074430273104,
+    "status": "entry conflict",
+    "dfs": 109
+   },
+   {
+    "id": 110,
+    "parent": 107,
+    "depth": 11,
+    "theta": 0.9699848285277242,
+    "status": "entry conflict",
+    "dfs": 110
+   },
+   {
+    "id": 111,
+    "parent": 107,
+    "depth": 11,
+    "theta": 0.9844622140281378,
+    "status": "wrong output",
+    "dfs": 111
+   },
+   {
+    "id": 112,
+    "parent": 107,
+    "depth": 11,
+    "theta": 0.9989395995285517,
+    "status": "open",
+    "dfs": 112
+   },
+   {
+    "id": 113,
+    "parent": 112,
+    "depth": 12,
+    "theta": 0.9989395995285517,
+    "status": "wrong output",
+    "dfs": 113
+   },
+   {
+    "id": 114,
+    "parent": 99,
+    "depth": 10,
+    "theta": 1.0134169850289656,
+    "status": "wrong output",
+    "dfs": 114
+   },
+   {
+    "id": 115,
+    "parent": 80,
+    "depth": 9,
+    "theta": 1.0278943705293795,
+    "status": "wrong output",
+    "dfs": 115
+   },
+   {
+    "id": 116,
+    "parent": 58,
+    "depth": 8,
+    "theta": 1.0423717560297932,
+    "status": "wrong output",
+    "dfs": 116
+   },
+   {
+    "id": 117,
+    "parent": 57,
+    "depth": 7,
+    "theta": 1.0568491415302068,
+    "status": "wrong output",
+    "dfs": 117
+   },
+   {
+    "id": 118,
+    "parent": 57,
+    "depth": 7,
+    "theta": 1.2667712312862067,
+    "status": "open",
+    "dfs": 118
+   },
+   {
+    "id": 119,
+    "parent": 118,
+    "depth": 8,
+    "theta": 1.179906918283724,
+    "status": "open",
+    "dfs": 119
+   },
+   {
+    "id": 120,
+    "parent": 119,
+    "depth": 9,
+    "theta": 1.0930426052812414,
+    "status": "open",
+    "dfs": 120
+   },
+   {
+    "id": 121,
+    "parent": 120,
+    "depth": 10,
+    "theta": 1.0713265270306207,
+    "status": "open",
+    "dfs": 121
+   },
+   {
+    "id": 122,
+    "parent": 121,
+    "depth": 11,
+    "theta": 1.0713265270306207,
+    "status": "wrong output",
+    "dfs": 122
+   },
+   {
+    "id": 123,
+    "parent": 120,
+    "depth": 10,
+    "theta": 1.0858039125310346,
+    "status": "wrong output",
+    "dfs": 123
+   },
+   {
+    "id": 124,
+    "parent": 120,
+    "depth": 10,
+    "theta": 1.1002812980314483,
+    "status": "open",
+    "dfs": 124
+   },
+   {
+    "id": 125,
+    "parent": 124,
+    "depth": 11,
+    "theta": 1.1002812980314483,
+    "status": "wrong output",
+    "dfs": 125
+   },
+   {
+    "id": 126,
+    "parent": 120,
+    "depth": 10,
+    "theta": 1.1147586835318621,
+    "status": "wrong output",
+    "dfs": 126
+   },
+   {
+    "id": 127,
+    "parent": 119,
+    "depth": 9,
+    "theta": 1.1292360690322758,
+    "status": "wrong output",
+    "dfs": 127
+   },
+   {
+    "id": 128,
+    "parent": 119,
+    "depth": 9,
+    "theta": 1.2088616892845516,
+    "status": "open",
+    "dfs": 128
+   },
+   {
+    "id": 129,
+    "parent": 128,
+    "depth": 10,
+    "theta": 1.1654295327833104,
+    "status": "open",
+    "dfs": 129
+   },
+   {
+    "id": 130,
+    "parent": 129,
+    "depth": 11,
+    "theta": 1.1437134545326897,
+    "status": "open",
+    "dfs": 130
+   },
+   {
+    "id": 131,
+    "parent": 130,
+    "depth": 12,
+    "theta": 1.1437134545326897,
+    "status": "wrong output",
+    "dfs": 131
+   },
+   {
+    "id": 132,
+    "parent": 129,
+    "depth": 11,
+    "theta": 1.1581908400331036,
+    "status": "wrong output",
+    "dfs": 132
+   },
+   {
+    "id": 133,
+    "parent": 129,
+    "depth": 11,
+    "theta": 1.1726682255335172,
+    "status": "open",
+    "dfs": 133
+   },
+   {
+    "id": 134,
+    "parent": 133,
+    "depth": 12,
+    "theta": 1.1726682255335172,
+    "status": "wrong output",
+    "dfs": 134
+   },
+   {
+    "id": 135,
+    "parent": 129,
+    "depth": 11,
+    "theta": 1.187145611033931,
+    "status": "wrong output",
+    "dfs": 135
+   },
+   {
+    "id": 136,
+    "parent": 128,
+    "depth": 10,
+    "theta": 1.2016229965343448,
+    "status": "wrong output",
+    "dfs": 136
+   },
+   {
+    "id": 137,
+    "parent": 128,
+    "depth": 10,
+    "theta": 1.2378164602853794,
+    "status": "open",
+    "dfs": 137
+   },
+   {
+    "id": 138,
+    "parent": 137,
+    "depth": 11,
+    "theta": 1.2161003820347587,
+    "status": "open",
+    "dfs": 138
+   },
+   {
+    "id": 139,
+    "parent": 138,
+    "depth": 12,
+    "theta": 1.2161003820347587,
+    "status": "wrong output",
+    "dfs": 139
+   },
+   {
+    "id": 140,
+    "parent": 137,
+    "depth": 11,
+    "theta": 1.2305777675351726,
+    "status": "wrong output",
+    "dfs": 140
+   },
+   {
+    "id": 141,
+    "parent": 137,
+    "depth": 11,
+    "theta": 1.2450551530355862,
+    "status": "open",
+    "dfs": 141
+   },
+   {
+    "id": 142,
+    "parent": 141,
+    "depth": 12,
+    "theta": 1.2450551530355862,
+    "status": "wrong output",
+    "dfs": 142
+   },
+   {
+    "id": 143,
+    "parent": 137,
+    "depth": 11,
+    "theta": 1.259532538536,
+    "status": "wrong output",
+    "dfs": 143
+   },
+   {
+    "id": 144,
+    "parent": 128,
+    "depth": 10,
+    "theta": 1.2740099240364138,
+    "status": "wrong output",
+    "dfs": 144
+   },
+   {
+    "id": 145,
+    "parent": 119,
+    "depth": 9,
+    "theta": 1.2884873095368277,
+    "status": "wrong output",
+    "dfs": 145
+   },
+   {
+    "id": 146,
+    "parent": 118,
+    "depth": 8,
+    "theta": 1.3029646950372413,
+    "status": "wrong output",
+    "dfs": 146
+   },
+   {
+    "id": 147,
+    "parent": 118,
+    "depth": 8,
+    "theta": 1.3825903152895171,
+    "status": "open",
+    "dfs": 147
+   },
+   {
+    "id": 148,
+    "parent": 147,
+    "depth": 9,
+    "theta": 1.339158158788276,
+    "status": "open",
+    "dfs": 148
+   },
+   {
+    "id": 149,
+    "parent": 148,
+    "depth": 10,
+    "theta": 1.3174420805376552,
+    "status": "open",
+    "dfs": 149
+   },
+   {
+    "id": 150,
+    "parent": 149,
+    "depth": 11,
+    "theta": 1.3174420805376552,
+    "status": "wrong output",
+    "dfs": 150
+   },
+   {
+    "id": 151,
+    "parent": 148,
+    "depth": 10,
+    "theta": 1.3319194660380689,
+    "status": "wrong output",
+    "dfs": 151
+   },
+   {
+    "id": 152,
+    "parent": 148,
+    "depth": 10,
+    "theta": 1.3463968515384828,
+    "status": "open",
+    "dfs": 152
+   },
+   {
+    "id": 153,
+    "parent": 152,
+    "depth": 11,
+    "theta": 1.3463968515384828,
+    "status": "wrong output",
+    "dfs": 153
+   },
+   {
+    "id": 154,
+    "parent": 148,
+    "depth": 10,
+    "theta": 1.3608742370388967,
+    "status": "wrong output",
+    "dfs": 154
+   },
+   {
+    "id": 155,
+    "parent": 147,
+    "depth": 9,
+    "theta": 1.3753516225393103,
+    "status": "wrong output",
+    "dfs": 155
+   },
+   {
+    "id": 156,
+    "parent": 147,
+    "depth": 9,
+    "theta": 1.411545086290345,
+    "status": "open",
+    "dfs": 156
+   },
+   {
+    "id": 157,
+    "parent": 156,
+    "depth": 10,
+    "theta": 1.3898290080397242,
+    "status": "open",
+    "dfs": 157
+   },
+   {
+    "id": 158,
+    "parent": 157,
+    "depth": 11,
+    "theta": 1.3898290080397242,
+    "status": "wrong output",
+    "dfs": 158
+   },
+   {
+    "id": 159,
+    "parent": 156,
+    "depth": 10,
+    "theta": 1.4043063935401379,
+    "status": "wrong output",
+    "dfs": 159
+   },
+   {
+    "id": 160,
+    "parent": 156,
+    "depth": 10,
+    "theta": 1.4187837790405518,
+    "status": "open",
+    "dfs": 160
+   },
+   {
+    "id": 161,
+    "parent": 160,
+    "depth": 11,
+    "theta": 1.4187837790405518,
+    "status": "wrong output",
+    "dfs": 161
+   },
+   {
+    "id": 162,
+    "parent": 156,
+    "depth": 10,
+    "theta": 1.4332611645409656,
+    "status": "wrong output",
+    "dfs": 162
+   },
+   {
+    "id": 163,
+    "parent": 147,
+    "depth": 9,
+    "theta": 1.4477385500413793,
+    "status": "wrong output",
+    "dfs": 163
+   },
+   {
+    "id": 164,
+    "parent": 118,
+    "depth": 8,
+    "theta": 1.462215935541793,
+    "status": "wrong output",
+    "dfs": 164
+   },
+   {
+    "id": 165,
+    "parent": 57,
+    "depth": 7,
+    "theta": 1.4766933210422069,
+    "status": "wrong output",
+    "dfs": 165
+   },
+   {
+    "id": 166,
+    "parent": 56,
+    "depth": 6,
+    "theta": 1.4911707065426207,
+    "status": "wrong output",
+    "dfs": 166
+   },
+   {
+    "id": 167,
+    "parent": 56,
+    "depth": 6,
+    "theta": 1.7807184165508965,
+    "status": "open",
+    "dfs": 167
+   },
+   {
+    "id": 168,
+    "parent": 167,
+    "depth": 7,
+    "theta": 1.5925124050455173,
+    "status": "open",
+    "dfs": 168
+   },
+   {
+    "id": 169,
+    "parent": 168,
+    "depth": 8,
+    "theta": 1.5273641702936551,
+    "status": "open",
+    "dfs": 169
+   },
+   {
+    "id": 170,
+    "parent": 169,
+    "depth": 9,
+    "theta": 1.5056480920430344,
+    "status": "open",
+    "dfs": 170
+   },
+   {
+    "id": 171,
+    "parent": 170,
+    "depth": 10,
+    "theta": 1.5056480920430344,
+    "status": "wrong output",
+    "dfs": 171
+   },
+   {
+    "id": 172,
+    "parent": 169,
+    "depth": 9,
+    "theta": 1.5201254775434483,
+    "status": "wrong output",
+    "dfs": 172
+   },
+   {
+    "id": 173,
+    "parent": 169,
+    "depth": 9,
+    "theta": 1.534602863043862,
+    "status": "open",
+    "dfs": 173
+   },
+   {
+    "id": 174,
+    "parent": 173,
+    "depth": 10,
+    "theta": 1.534602863043862,
+    "status": "wrong output",
+    "dfs": 174
+   },
+   {
+    "id": 175,
+    "parent": 169,
+    "depth": 9,
+    "theta": 1.5490802485442758,
+    "status": "wrong output",
+    "dfs": 175
+   },
+   {
+    "id": 176,
+    "parent": 168,
+    "depth": 8,
+    "theta": 1.5635576340446897,
+    "status": "wrong output",
+    "dfs": 176
+   },
+   {
+    "id": 177,
+    "parent": 168,
+    "depth": 8,
+    "theta": 1.6214671760463448,
+    "status": "open",
+    "dfs": 177
+   },
+   {
+    "id": 178,
+    "parent": 177,
+    "depth": 9,
+    "theta": 1.599751097795724,
+    "status": "open",
+    "dfs": 178
+   },
+   {
+    "id": 179,
+    "parent": 178,
+    "depth": 10,
+    "theta": 1.5780350195451036,
+    "status": "open",
+    "dfs": 179
+   },
+   {
+    "id": 180,
+    "parent": 179,
+    "depth": 11,
+    "theta": 1.5780350195451036,
+    "status": "wrong output",
+    "dfs": 180
+   },
+   {
+    "id": 181,
+    "parent": 178,
+    "depth": 10,
+    "theta": 1.5925124050455173,
+    "status": "wrong output",
+    "dfs": 181
+   },
+   {
+    "id": 182,
+    "parent": 178,
+    "depth": 10,
+    "theta": 1.6069897905459312,
+    "status": "open",
+    "dfs": 182
+   },
+   {
+    "id": 183,
+    "parent": 182,
+    "depth": 11,
+    "theta": 1.6069897905459312,
+    "status": "wrong output",
+    "dfs": 183
+   },
+   {
+    "id": 184,
+    "parent": 178,
+    "depth": 10,
+    "theta": 1.6214671760463448,
+    "status": "wrong output",
+    "dfs": 184
+   },
+   {
+    "id": 185,
+    "parent": 177,
+    "depth": 9,
+    "theta": 1.6359445615467585,
+    "status": "wrong output",
+    "dfs": 185
+   },
+   {
+    "id": 186,
+    "parent": 177,
+    "depth": 9,
+    "theta": 1.6504219470471722,
+    "status": "open",
+    "dfs": 186
+   },
+   {
+    "id": 187,
+    "parent": 186,
+    "depth": 10,
+    "theta": 1.6504219470471722,
+    "status": "wrong output",
+    "dfs": 187
+   },
+   {
+    "id": 188,
+    "parent": 177,
+    "depth": 9,
+    "theta": 1.6648993325475863,
+    "status": "wrong output",
+    "dfs": 188
+   },
+   {
+    "id": 189,
+    "parent": 168,
+    "depth": 8,
+    "theta": 1.6793767180480001,
+    "status": "wrong output",
+    "dfs": 189
+   },
+   {
+    "id": 190,
+    "parent": 167,
+    "depth": 7,
+    "theta": 1.6938541035484138,
+    "status": "wrong output",
+    "dfs": 190
+   },
+   {
+    "id": 191,
+    "parent": 167,
+    "depth": 7,
+    "theta": 1.8748214223035864,
+    "status": "open",
+    "dfs": 191
+   },
+   {
+    "id": 192,
+    "parent": 191,
+    "depth": 8,
+    "theta": 1.7807184165508965,
+    "status": "open",
+    "dfs": 192
+   },
+   {
+    "id": 193,
+    "parent": 192,
+    "depth": 9,
+    "theta": 1.7372862600496553,
+    "status": "open",
+    "dfs": 193
+   },
+   {
+    "id": 194,
+    "parent": 193,
+    "depth": 10,
+    "theta": 1.7083314890488275,
+    "status": "wrong output",
+    "dfs": 194
+   },
+   {
+    "id": 195,
+    "parent": 193,
+    "depth": 10,
+    "theta": 1.7228088745492411,
+    "status": "entry conflict",
+    "dfs": 195
+   },
+   {
+    "id": 196,
+    "parent": 193,
+    "depth": 10,
+    "theta": 1.7372862600496553,
+    "status": "wrong output",
+    "dfs": 196
+   },
+   {
+    "id": 197,
+    "parent": 193,
+    "depth": 10,
+    "theta": 1.7517636455500691,
+    "status": "valid",
+    "dfs": 197
+   },
+   {
+    "id": 198,
+    "parent": 193,
+    "depth": 10,
+    "theta": 1.7662410310504828,
+    "status": "entry conflict",
+    "dfs": 198
+   },
+   {
+    "id": 199,
+    "parent": 192,
+    "depth": 9,
+    "theta": 1.7807184165508965,
+    "status": "wrong output",
+    "dfs": 199
+   },
+   {
+    "id": 200,
+    "parent": 192,
+    "depth": 9,
+    "theta": 1.816911880301931,
+    "status": "open",
+    "dfs": 200
+   },
+   {
+    "id": 201,
+    "parent": 200,
+    "depth": 10,
+    "theta": 1.7951958020513104,
+    "status": "open",
+    "dfs": 201
+   },
+   {
+    "id": 202,
+    "parent": 201,
+    "depth": 11,
+    "theta": 1.7951958020513104,
+    "status": "wrong output",
+    "dfs": 202
+   },
+   {
+    "id": 203,
+    "parent": 200,
+    "depth": 10,
+    "theta": 1.809673187551724,
+    "status": "wrong output",
+    "dfs": 203
+   },
+   {
+    "id": 204,
+    "parent": 200,
+    "depth": 10,
+    "theta": 1.8241505730521381,
+    "status": "open",
+    "dfs": 204
+   },
+   {
+    "id": 205,
+    "parent": 204,
+    "depth": 11,
+    "theta": 1.8241505730521381,
+    "status": "wrong output",
+    "dfs": 205
+   },
+   {
+    "id": 206,
+    "parent": 200,
+    "depth": 10,
+    "theta": 1.8386279585525518,
+    "status": "wrong output",
+    "dfs": 206
+   },
+   {
+    "id": 207,
+    "parent": 192,
+    "depth": 9,
+    "theta": 1.8531053440529655,
+    "status": "wrong output",
+    "dfs": 207
+   },
+   {
+    "id": 208,
+    "parent": 191,
+    "depth": 8,
+    "theta": 1.8675827295533793,
+    "status": "wrong output",
+    "dfs": 208
+   },
+   {
+    "id": 209,
+    "parent": 191,
+    "depth": 8,
+    "theta": 1.954447042555862,
+    "status": "open",
+    "dfs": 209
+   },
+   {
+    "id": 210,
+    "parent": 209,
+    "depth": 9,
+    "theta": 1.9327309643052413,
+    "status": "open",
+    "dfs": 210
+   },
+   {
+    "id": 211,
+    "parent": 210,
+    "depth": 10,
+    "theta": 1.882060115053793,
+    "status": "wrong output",
+    "dfs": 211
+   },
+   {
+    "id": 212,
+    "parent": 210,
+    "depth": 10,
+    "theta": 1.8965375005542071,
+    "status": "entry conflict",
+    "dfs": 212
+   },
+   {
+    "id": 213,
+    "parent": 210,
+    "depth": 10,
+    "theta": 1.9110148860546208,
+    "status": "wrong output",
+    "dfs": 213
+   },
+   {
+    "id": 214,
+    "parent": 210,
+    "depth": 10,
+    "theta": 1.9472083498056554,
+    "status": "open",
+    "dfs": 214
+   },
+   {
+    "id": 215,
+    "parent": 214,
+    "depth": 11,
+    "theta": 1.9254922715550344,
+    "status": "valid",
+    "dfs": 215
+   },
+   {
+    "id": 216,
+    "parent": 214,
+    "depth": 11,
+    "theta": 1.9399696570554483,
+    "status": "wrong output",
+    "dfs": 216
+   },
+   {
+    "id": 217,
+    "parent": 214,
+    "depth": 11,
+    "theta": 1.954447042555862,
+    "status": "valid",
+    "dfs": 217
+   },
+   {
+    "id": 218,
+    "parent": 214,
+    "depth": 11,
+    "theta": 1.9689244280562757,
+    "status": "wrong output",
+    "dfs": 218
+   },
+   {
+    "id": 219,
+    "parent": 210,
+    "depth": 10,
+    "theta": 1.9834018135566898,
+    "status": "entry conflict",
+    "dfs": 219
+   },
+   {
+    "id": 220,
+    "parent": 209,
+    "depth": 9,
+    "theta": 1.9978791990571034,
+    "status": "wrong output",
+    "dfs": 220
+   },
+   {
+    "id": 221,
+    "parent": 209,
+    "depth": 9,
+    "theta": 2.012356584557517,
+    "status": "open",
+    "dfs": 221
+   },
+   {
+    "id": 222,
+    "parent": 221,
+    "depth": 10,
+    "theta": 2.012356584557517,
+    "status": "wrong output",
+    "dfs": 222
+   },
+   {
+    "id": 223,
+    "parent": 209,
+    "depth": 9,
+    "theta": 2.026833970057931,
+    "status": "wrong output",
+    "dfs": 223
+   },
+   {
+    "id": 224,
+    "parent": 191,
+    "depth": 8,
+    "theta": 2.041311355558345,
+    "status": "wrong output",
+    "dfs": 224
+   },
+   {
+    "id": 225,
+    "parent": 167,
+    "depth": 7,
+    "theta": 2.055788741058759,
+    "status": "wrong output",
+    "dfs": 225
+   },
+   {
+    "id": 226,
+    "parent": 56,
+    "depth": 6,
+    "theta": 2.0702661265591726,
+    "status": "entry conflict",
+    "dfs": 226
+   },
+   {
+    "id": 227,
+    "parent": 56,
+    "depth": 6,
+    "theta": 2.0847435120595863,
+    "status": "wrong output",
+    "dfs": 227
+   },
+   {
+    "id": 228,
+    "parent": 54,
+    "depth": 5,
+    "theta": 2.09922089756,
+    "status": "wrong output",
+    "dfs": 228
+   },
+   {
+    "id": 229,
+    "parent": 54,
+    "depth": 5,
+    "theta": 2.1426530540612414,
+    "status": "open",
+    "dfs": 229
+   },
+   {
+    "id": 230,
+    "parent": 229,
+    "depth": 6,
+    "theta": 2.1136982830604136,
+    "status": "open",
+    "dfs": 230
+   },
+   {
+    "id": 231,
+    "parent": 230,
+    "depth": 7,
+    "theta": 2.1136982830604136,
+    "status": "wrong output",
+    "dfs": 231
+   },
+   {
+    "id": 232,
+    "parent": 229,
+    "depth": 6,
+    "theta": 2.1281756685608273,
+    "status": "wrong output",
+    "dfs": 232
+   },
+   {
+    "id": 233,
+    "parent": 229,
+    "depth": 6,
+    "theta": 2.1426530540612414,
+    "status": "open",
+    "dfs": 233
+   },
+   {
+    "id": 234,
+    "parent": 233,
+    "depth": 7,
+    "theta": 2.1426530540612414,
+    "status": "wrong output",
+    "dfs": 234
+   },
+   {
+    "id": 235,
+    "parent": 229,
+    "depth": 6,
+    "theta": 2.157130439561655,
+    "status": "entry conflict",
+    "dfs": 235
+   },
+   {
+    "id": 236,
+    "parent": 229,
+    "depth": 6,
+    "theta": 2.171607825062069,
+    "status": "wrong output",
+    "dfs": 236
+   },
+   {
+    "id": 237,
+    "parent": 52,
+    "depth": 4,
+    "theta": 2.186085210562483,
+    "status": "wrong output",
+    "dfs": 237
+   },
+   {
+    "id": 238,
+    "parent": 52,
+    "depth": 4,
+    "theta": 2.2005625960628965,
+    "status": "open",
+    "dfs": 238
+   },
+   {
+    "id": 239,
+    "parent": 238,
+    "depth": 5,
+    "theta": 2.2005625960628965,
+    "status": "wrong output",
+    "dfs": 239
+   },
+   {
+    "id": 240,
+    "parent": 0,
+    "depth": 1,
+    "theta": 2.21503998156331,
+    "status": "wrong output",
+    "dfs": 240
+   },
+   {
+    "id": 241,
+    "parent": 0,
+    "depth": 1,
+    "theta": 4.249112644371448,
+    "status": "open",
+    "dfs": 241
+   },
+   {
+    "id": 242,
+    "parent": 241,
+    "depth": 2,
+    "theta": 2.2295173670637243,
+    "status": "wrong output",
+    "dfs": 242
+   },
+   {
+    "id": 243,
+    "parent": 241,
+    "depth": 2,
+    "theta": 2.3960073003184825,
+    "status": "open",
+    "dfs": 243
+   },
+   {
+    "id": 244,
+    "parent": 243,
+    "depth": 3,
+    "theta": 2.243994752564138,
+    "status": "wrong output",
+    "dfs": 244
+   },
+   {
+    "id": 245,
+    "parent": 243,
+    "depth": 3,
+    "theta": 2.3236203728164138,
+    "status": "open",
+    "dfs": 245
+   },
+   {
+    "id": 246,
+    "parent": 245,
+    "depth": 4,
+    "theta": 2.2584721380645516,
+    "status": "wrong output",
+    "dfs": 246
+   },
+   {
+    "id": 247,
+    "parent": 245,
+    "depth": 4,
+    "theta": 2.2946656018155864,
+    "status": "open",
+    "dfs": 247
+   },
+   {
+    "id": 248,
+    "parent": 247,
+    "depth": 5,
+    "theta": 2.2729495235649653,
+    "status": "wrong output",
+    "dfs": 248
+   },
+   {
+    "id": 249,
+    "parent": 247,
+    "depth": 5,
+    "theta": 2.2874269090653794,
+    "status": "open",
+    "dfs": 249
+   },
+   {
+    "id": 250,
+    "parent": 249,
+    "depth": 6,
+    "theta": 2.2874269090653794,
+    "status": "wrong output",
+    "dfs": 250
+   },
+   {
+    "id": 251,
+    "parent": 247,
+    "depth": 5,
+    "theta": 2.301904294565793,
+    "status": "wrong output",
+    "dfs": 251
+   },
+   {
+    "id": 252,
+    "parent": 247,
+    "depth": 5,
+    "theta": 2.316381680066207,
+    "status": "open",
+    "dfs": 252
+   },
+   {
+    "id": 253,
+    "parent": 252,
+    "depth": 6,
+    "theta": 2.316381680066207,
+    "status": "wrong output",
+    "dfs": 253
+   },
+   {
+    "id": 254,
+    "parent": 245,
+    "depth": 4,
+    "theta": 2.330859065566621,
+    "status": "wrong output",
+    "dfs": 254
+   },
+   {
+    "id": 255,
+    "parent": 245,
+    "depth": 4,
+    "theta": 2.367052529317655,
+    "status": "open",
+    "dfs": 255
+   },
+   {
+    "id": 256,
+    "parent": 255,
+    "depth": 5,
+    "theta": 2.3453364510670345,
+    "status": "wrong output",
+    "dfs": 256
+   },
+   {
+    "id": 257,
+    "parent": 255,
+    "depth": 5,
+    "theta": 2.359813836567448,
+    "status": "open",
+    "dfs": 257
+   },
+   {
+    "id": 258,
+    "parent": 257,
+    "depth": 6,
+    "theta": 2.359813836567448,
+    "status": "wrong output",
+    "dfs": 258
+   },
+   {
+    "id": 259,
+    "parent": 255,
+    "depth": 5,
+    "theta": 2.374291222067862,
+    "status": "wrong output",
+    "dfs": 259
+   },
+   {
+    "id": 260,
+    "parent": 255,
+    "depth": 5,
+    "theta": 2.388768607568276,
+    "status": "open",
+    "dfs": 260
+   },
+   {
+    "id": 261,
+    "parent": 260,
+    "depth": 6,
+    "theta": 2.388768607568276,
+    "status": "wrong output",
+    "dfs": 261
+   },
+   {
+    "id": 262,
+    "parent": 243,
+    "depth": 3,
+    "theta": 2.4032459930686896,
+    "status": "wrong output",
+    "dfs": 262
+   },
+   {
+    "id": 263,
+    "parent": 243,
+    "depth": 3,
+    "theta": 2.4828716133209654,
+    "status": "open",
+    "dfs": 263
+   },
+   {
+    "id": 264,
+    "parent": 263,
+    "depth": 4,
+    "theta": 2.4177233785691032,
+    "status": "wrong output",
+    "dfs": 264
+   },
+   {
+    "id": 265,
+    "parent": 263,
+    "depth": 4,
+    "theta": 2.453916842320138,
+    "status": "open",
+    "dfs": 265
+   },
+   {
+    "id": 266,
+    "parent": 265,
+    "depth": 5,
+    "theta": 2.4322007640695174,
+    "status": "wrong output",
+    "dfs": 266
+   },
+   {
+    "id": 267,
+    "parent": 265,
+    "depth": 5,
+    "theta": 2.446678149569931,
+    "status": "open",
+    "dfs": 267
+   },
+   {
+    "id": 268,
+    "parent": 267,
+    "depth": 6,
+    "theta": 2.446678149569931,
+    "status": "wrong output",
+    "dfs": 268
+   },
+   {
+    "id": 269,
+    "parent": 265,
+    "depth": 5,
+    "theta": 2.461155535070345,
+    "status": "wrong output",
+    "dfs": 269
+   },
+   {
+    "id": 270,
+    "parent": 265,
+    "depth": 5,
+    "theta": 2.475632920570759,
+    "status": "open",
+    "dfs": 270
+   },
+   {
+    "id": 271,
+    "parent": 270,
+    "depth": 6,
+    "theta": 2.475632920570759,
+    "status": "wrong output",
+    "dfs": 271
+   },
+   {
+    "id": 272,
+    "parent": 263,
+    "depth": 4,
+    "theta": 2.4901103060711725,
+    "status": "wrong output",
+    "dfs": 272
+   },
+   {
+    "id": 273,
+    "parent": 263,
+    "depth": 4,
+    "theta": 2.526303769822207,
+    "status": "open",
+    "dfs": 273
+   },
+   {
+    "id": 274,
+    "parent": 273,
+    "depth": 5,
+    "theta": 2.504587691571586,
+    "status": "wrong output",
+    "dfs": 274
+   },
+   {
+    "id": 275,
+    "parent": 273,
+    "depth": 5,
+    "theta": 2.519065077072,
+    "status": "open",
+    "dfs": 275
+   },
+   {
+    "id": 276,
+    "parent": 275,
+    "depth": 6,
+    "theta": 2.519065077072,
+    "status": "wrong output",
+    "dfs": 276
+   },
+   {
+    "id": 277,
+    "parent": 273,
+    "depth": 5,
+    "theta": 2.5335424625724134,
+    "status": "wrong output",
+    "dfs": 277
+   },
+   {
+    "id": 278,
+    "parent": 273,
+    "depth": 5,
+    "theta": 2.5480198480728276,
+    "status": "open",
+    "dfs": 278
+   },
+   {
+    "id": 279,
+    "parent": 278,
+    "depth": 6,
+    "theta": 2.5480198480728276,
+    "status": "wrong output",
+    "dfs": 279
+   },
+   {
+    "id": 280,
+    "parent": 241,
+    "depth": 2,
+    "theta": 2.5624972335732417,
+    "status": "wrong output",
+    "dfs": 280
+   },
+   {
+    "id": 281,
+    "parent": 241,
+    "depth": 2,
+    "theta": 4.422841270376414,
+    "status": "open",
+    "dfs": 281
+   },
+   {
+    "id": 282,
+    "parent": 281,
+    "depth": 3,
+    "theta": 2.5769746190736553,
+    "status": "wrong output",
+    "dfs": 282
+   },
+   {
+    "id": 283,
+    "parent": 281,
+    "depth": 3,
+    "theta": 4.415602577626207,
+    "status": "open",
+    "dfs": 283
+   },
+   {
+    "id": 284,
+    "parent": 283,
+    "depth": 4,
+    "theta": 2.591452004574069,
+    "status": "wrong output",
+    "dfs": 284
+   },
+   {
+    "id": 285,
+    "parent": 283,
+    "depth": 4,
+    "theta": 3.5831529113524136,
+    "status": "open",
+    "dfs": 285
+   },
+   {
+    "id": 286,
+    "parent": 285,
+    "depth": 5,
+    "theta": 3.192263502841241,
+    "status": "open",
+    "dfs": 286
+   },
+   {
+    "id": 287,
+    "parent": 286,
+    "depth": 6,
+    "theta": 2.6059293900744827,
+    "status": "wrong output",
+    "dfs": 287
+   },
+   {
+    "id": 288,
+    "parent": 286,
+    "depth": 6,
+    "theta": 2.6855550103267585,
+    "status": "open",
+    "dfs": 288
+   },
+   {
+    "id": 289,
+    "parent": 288,
+    "depth": 7,
+    "theta": 2.642122853825517,
+    "status": "open",
+    "dfs": 289
+   },
+   {
+    "id": 290,
+    "parent": 289,
+    "depth": 8,
+    "theta": 2.6204067755748968,
+    "status": "open",
+    "dfs": 290
+   },
+   {
+    "id": 291,
+    "parent": 290,
+    "depth": 9,
+    "theta": 2.6204067755748968,
+    "status": "wrong output",
+    "dfs": 291
+   },
+   {
+    "id": 292,
+    "parent": 289,
+    "depth": 8,
+    "theta": 2.6348841610753104,
+    "status": "wrong output",
+    "dfs": 292
+   },
+   {
+    "id": 293,
+    "parent": 289,
+    "depth": 8,
+    "theta": 2.649361546575724,
+    "status": "open",
+    "dfs": 293
+   },
+   {
+    "id": 294,
+    "parent": 293,
+    "depth": 9,
+    "theta": 2.649361546575724,
+    "status": "wrong output",
+    "dfs": 294
+   },
+   {
+    "id": 295,
+    "parent": 289,
+    "depth": 8,
+    "theta": 2.6638389320761378,
+    "status": "wrong output",
+    "dfs": 295
+   },
+   {
+    "id": 296,
+    "parent": 288,
+    "depth": 7,
+    "theta": 2.678316317576552,
+    "status": "wrong output",
+    "dfs": 296
+   },
+   {
+    "id": 297,
+    "parent": 288,
+    "depth": 7,
+    "theta": 2.7145097813275862,
+    "status": "open",
+    "dfs": 297
+   },
+   {
+    "id": 298,
+    "parent": 297,
+    "depth": 8,
+    "theta": 2.6927937030769655,
+    "status": "open",
+    "dfs": 298
+   },
+   {
+    "id": 299,
+    "parent": 298,
+    "depth": 9,
+    "theta": 2.6927937030769655,
+    "status": "wrong output",
+    "dfs": 299
+   },
+   {
+    "id": 300,
+    "parent": 297,
+    "depth": 8,
+    "theta": 2.7072710885773796,
+    "status": "wrong output",
+    "dfs": 300
+   },
+   {
+    "id": 301,
+    "parent": 297,
+    "depth": 8,
+    "theta": 2.7217484740777933,
+    "status": "open",
+    "dfs": 301
+   },
+   {
+    "id": 302,
+    "parent": 301,
+    "depth": 9,
+    "theta": 2.7217484740777933,
+    "status": "wrong output",
+    "dfs": 302
+   },
+   {
+    "id": 303,
+    "parent": 297,
+    "depth": 8,
+    "theta": 2.736225859578207,
+    "status": "wrong output",
+    "dfs": 303
+   },
+   {
+    "id": 304,
+    "parent": 288,
+    "depth": 7,
+    "theta": 2.7507032450786206,
+    "status": "wrong output",
+    "dfs": 304
+   },
+   {
+    "id": 305,
+    "parent": 286,
+    "depth": 6,
+    "theta": 2.7651806305790343,
+    "status": "wrong output",
+    "dfs": 305
+   },
+   {
+    "id": 306,
+    "parent": 286,
+    "depth": 6,
+    "theta": 3.2791278158437245,
+    "status": "open",
+    "dfs": 306
+   },
+   {
+    "id": 307,
+    "parent": 306,
+    "depth": 7,
+    "theta": 3.0619670333375173,
+    "status": "open",
+    "dfs": 307
+   },
+   {
+    "id": 308,
+    "parent": 307,
+    "depth": 8,
+    "theta": 2.873761021832138,
+    "status": "open",
+    "dfs": 308
+   },
+   {
+    "id": 309,
+    "parent": 308,
+    "depth": 9,
+    "theta": 2.7796580160794484,
+    "status": "open",
+    "dfs": 309
+   },
+   {
+    "id": 310,
+    "parent": 309,
+    "depth": 10,
+    "theta": 2.7796580160794484,
+    "status": "wrong output",
+    "dfs": 310
+   },
+   {
+    "id": 311,
+    "parent": 308,
+    "depth": 9,
+    "theta": 2.794135401579862,
+    "status": "wrong output",
+    "dfs": 311
+   },
+   {
+    "id": 312,
+    "parent": 308,
+    "depth": 9,
+    "theta": 2.880999714582345,
+    "status": "open",
+    "dfs": 312
+   },
+   {
+    "id": 313,
+    "parent": 312,
+    "depth": 10,
+    "theta": 2.8086127870802757,
+    "status": "wrong output",
+    "dfs": 313
+   },
+   {
+    "id": 314,
+    "parent": 312,
+    "depth": 10,
+    "theta": 2.82309017258069,
+    "status": "entry conflict",
+    "dfs": 314
+   },
+   {
+    "id": 315,
+    "parent": 312,
+    "depth": 10,
+    "theta": 2.8375675580811035,
+    "status": "entry conflict",
+    "dfs": 315
+   },
+   {
+    "id": 316,
+    "parent": 312,
+    "depth": 10,
+    "theta": 2.852044943581517,
+    "status": "wrong output",
+    "dfs": 316
+   },
+   {
+    "id": 317,
+    "parent": 312,
+    "depth": 10,
+    "theta": 2.9099544855831723,
+    "status": "open",
+    "dfs": 317
+   },
+   {
+    "id": 318,
+    "parent": 317,
+    "depth": 11,
+    "theta": 2.8665223290819313,
+    "status": "valid",
+    "dfs": 318
+   },
+   {
+    "id": 319,
+    "parent": 317,
+    "depth": 11,
+    "theta": 2.880999714582345,
+    "status": "wrong output",
+    "dfs": 319
+   },
+   {
+    "id": 320,
+    "parent": 317,
+    "depth": 11,
+    "theta": 2.9171931783333793,
+    "status": "open",
+    "dfs": 320
+   },
+   {
+    "id": 321,
+    "parent": 320,
+    "depth": 12,
+    "theta": 2.8954771000827586,
+    "status": "valid",
+    "dfs": 321
+   },
+   {
+    "id": 322,
+    "parent": 320,
+    "depth": 12,
+    "theta": 2.9099544855831723,
+    "status": "wrong output",
+    "dfs": 322
+   },
+   {
+    "id": 323,
+    "parent": 320,
+    "depth": 12,
+    "theta": 2.924431871083586,
+    "status": "open",
+    "dfs": 323
+   },
+   {
+    "id": 324,
+    "parent": 323,
+    "depth": 13,
+    "theta": 2.924431871083586,
+    "status": "wrong output",
+    "dfs": 324
+   },
+   {
+    "id": 325,
+    "parent": 320,
+    "depth": 12,
+    "theta": 2.938909256584,
+    "status": "wrong output",
+    "dfs": 325
+   },
+   {
+    "id": 326,
+    "parent": 317,
+    "depth": 11,
+    "theta": 2.9533866420844137,
+    "status": "wrong output",
+    "dfs": 326
+   },
+   {
+    "id": 327,
+    "parent": 308,
+    "depth": 9,
+    "theta": 2.967864027584828,
+    "status": "wrong output",
+    "dfs": 327
+   },
+   {
+    "id": 328,
+    "parent": 307,
+    "depth": 8,
+    "theta": 2.9823414130852415,
+    "status": "wrong output",
+    "dfs": 328
+   },
+   {
+    "id": 329,
+    "parent": 307,
+    "depth": 8,
+    "theta": 3.163308731840414,
+    "status": "open",
+    "dfs": 329
+   },
+   {
+    "id": 330,
+    "parent": 329,
+    "depth": 9,
+    "theta": 3.0619670333375173,
+    "status": "open",
+    "dfs": 330
+   },
+   {
+    "id": 331,
+    "parent": 330,
+    "depth": 10,
+    "theta": 3.018534876836276,
+    "status": "open",
+    "dfs": 331
+   },
+   {
+    "id": 332,
+    "parent": 331,
+    "depth": 11,
+    "theta": 2.996818798585655,
+    "status": "open",
+    "dfs": 332
+   },
+   {
+    "id": 333,
+    "parent": 332,
+    "depth": 12,
+    "theta": 2.996818798585655,
+    "status": "wrong output",
+    "dfs": 333
+   },
+   {
+    "id": 334,
+    "parent": 331,
+    "depth": 11,
+    "theta": 3.011296184086069,
+    "status": "wrong output",
+    "dfs": 334
+   },
+   {
+    "id": 335,
+    "parent": 331,
+    "depth": 11,
+    "theta": 3.025773569586483,
+    "status": "open",
+    "dfs": 335
+   },
+   {
+    "id": 336,
+    "parent": 335,
+    "depth": 12,
+    "theta": 3.025773569586483,
+    "status": "wrong output",
+    "dfs": 336
+   },
+   {
+    "id": 337,
+    "parent": 331,
+    "depth": 11,
+    "theta": 3.0402509550868966,
+    "status": "wrong output",
+    "dfs": 337
+   },
+   {
+    "id": 338,
+    "parent": 330,
+    "depth": 10,
+    "theta": 3.0547283405873102,
+    "status": "wrong output",
+    "dfs": 338
+   },
+   {
+    "id": 339,
+    "parent": 330,
+    "depth": 10,
+    "theta": 3.090921804338345,
+    "status": "open",
+    "dfs": 339
+   },
+   {
+    "id": 340,
+    "parent": 339,
+    "depth": 11,
+    "theta": 3.069205726087724,
+    "status": "open",
+    "dfs": 340
+   },
+   {
+    "id": 341,
+    "parent": 340,
+    "depth": 12,
+    "theta": 3.069205726087724,
+    "status": "wrong output",
+    "dfs": 341
+   },
+   {
+    "id": 342,
+    "parent": 339,
+    "depth": 11,
+    "theta": 3.083683111588138,
+    "status": "wrong output",
+    "dfs": 342
+   },
+   {
+    "id": 343,
+    "parent": 339,
+    "depth": 11,
+    "theta": 3.0981604970885517,
+    "status": "open",
+    "dfs": 343
+   },
+   {
+    "id": 344,
+    "parent": 343,
+    "depth": 12,
+    "theta": 3.0981604970885517,
+    "status": "wrong output",
+    "dfs": 344
+   },
+   {
+    "id": 345,
+    "parent": 339,
+    "depth": 11,
+    "theta": 3.112637882588966,
+    "status": "wrong output",
+    "dfs": 345
+   },
+   {
+    "id": 346,
+    "parent": 330,
+    "depth": 10,
+    "theta": 3.1271152680893795,
+    "status": "wrong output",
+    "dfs": 346
+   },
+   {
+    "id": 347,
+    "parent": 329,
+    "depth": 9,
+    "theta": 3.141592653589793,
+    "status": "wrong output",
+    "dfs": 347
+   },
+   {
+    "id": 348,
+    "parent": 329,
+    "depth": 9,
+    "theta": 3.235695659342483,
+    "status": "open",
+    "dfs": 348
+   },
+   {
+    "id": 349,
+    "parent": 348,
+    "depth": 10,
+    "theta": 3.1850248100910346,
+    "status": "open",
+    "dfs": 349
+   },
+   {
+    "id": 350,
+    "parent": 349,
+    "depth": 11,
+    "theta": 3.1560700390902072,
+    "status": "wrong output",
+    "dfs": 350
+   },
+   {
+    "id": 351,
+    "parent": 349,
+    "depth": 11,
+    "theta": 3.1705474245906204,
+    "status": "entry conflict",
+    "dfs": 351
+   },
+   {
+    "id": 352,
+    "parent": 349,
+    "depth": 11,
+    "theta": 3.1850248100910346,
+    "status": "entry conflict",
+    "dfs": 352
+   },
+   {
+    "id": 353,
+    "parent": 349,
+    "depth": 11,
+    "theta": 3.199502195591448,
+    "status": "wrong output",
+    "dfs": 353
+   },
+   {
+    "id": 354,
+    "parent": 349,
+    "depth": 11,
+    "theta": 3.2139795810918623,
+    "status": "valid",
+    "dfs": 354
+   },
+   {
+    "id": 355,
+    "parent": 348,
+    "depth": 10,
+    "theta": 3.228456966592276,
+    "status": "wrong output",
+    "dfs": 355
+   },
+   {
+    "id": 356,
+    "parent": 348,
+    "depth": 10,
+    "theta": 3.271889123093517,
+    "status": "open",
+    "dfs": 356
+   },
+   {
+    "id": 357,
+    "parent": 356,
+    "depth": 11,
+    "theta": 3.2429343520926897,
+    "status": "wrong output",
+    "dfs": 357
+   },
+   {
+    "id": 358,
+    "parent": 356,
+    "depth": 11,
+    "theta": 3.2574117375931038,
+    "status": "entry conflict",
+    "dfs": 358
+   },
+   {
+    "id": 359,
+    "parent": 356,
+    "depth": 11,
+    "theta": 3.271889123093517,
+    "status": "entry conflict",
+    "dfs": 359
+   },
+   {
+    "id": 360,
+    "parent": 356,
+    "depth": 11,
+    "theta": 3.286366508593931,
+    "status": "wrong output",
+    "dfs": 360
+   },
+   {
+    "id": 361,
+    "parent": 356,
+    "depth": 11,
+    "theta": 3.3008438940943443,
+    "status": "open",
+    "dfs": 361
+   },
+   {
+    "id": 362,
+    "parent": 361,
+    "depth": 12,
+    "theta": 3.3008438940943443,
+    "status": "wrong output",
+    "dfs": 362
+   },
+   {
+    "id": 363,
+    "parent": 348,
+    "depth": 10,
+    "theta": 3.3153212795947584,
+    "status": "wrong output",
+    "dfs": 363
+   },
+   {
+    "id": 364,
+    "parent": 329,
+    "depth": 9,
+    "theta": 3.3297986650951725,
+    "status": "wrong output",
+    "dfs": 364
+   },
+   {
+    "id": 365,
+    "parent": 307,
+    "depth": 8,
+    "theta": 3.344276050595586,
+    "status": "wrong output",
+    "dfs": 365
+   },
+   {
+    "id": 366,
+    "parent": 306,
+    "depth": 7,
+    "theta": 3.3587534360960003,
+    "status": "wrong output",
+    "dfs": 366
+   },
+   {
+    "id": 367,
+    "parent": 306,
+    "depth": 7,
+    "theta": 3.5686755258519995,
+    "status": "open",
+    "dfs": 367
+   },
+   {
+    "id": 368,
+    "parent": 367,
+    "depth": 8,
+    "theta": 3.4818112128495176,
+    "status": "open",
+    "dfs": 368
+   },
+   {
+    "id": 369,
+    "parent": 368,
+    "depth": 9,
+    "theta": 3.3949468998470342,
+    "status": "open",
+    "dfs": 369
+   },
+   {
+    "id": 370,
+    "parent": 369,
+    "depth": 10,
+    "theta": 3.3732308215964135,
+    "status": "open",
+    "dfs": 370
+   },
+   {
+    "id": 371,
+    "parent": 370,
+    "depth": 11,
+    "theta": 3.3732308215964135,
+    "status": "wrong output",
+    "dfs": 371
+   },
+   {
+    "id": 372,
+    "parent": 369,
+    "depth": 10,
+    "theta": 3.3877082070968276,
+    "status": "wrong output",
+    "dfs": 372
+   },
+   {
+    "id": 373,
+    "parent": 369,
+    "depth": 10,
+    "theta": 3.4021855925972417,
+    "status": "open",
+    "dfs": 373
+   },
+   {
+    "id": 374,
+    "parent": 373,
+    "depth": 11,
+    "theta": 3.4021855925972417,
+    "status": "wrong output",
+    "dfs": 374
+   },
+   {
+    "id": 375,
+    "parent": 369,
+    "depth": 10,
+    "theta": 3.416662978097655,
+    "status": "wrong output",
+    "dfs": 375
+   },
+   {
+    "id": 376,
+    "parent": 368,
+    "depth": 9,
+    "theta": 3.431140363598069,
+    "status": "wrong output",
+    "dfs": 376
+   },
+   {
+    "id": 377,
+    "parent": 368,
+    "depth": 9,
+    "theta": 3.510765983850345,
+    "status": "open",
+    "dfs": 377
+   },
+   {
+    "id": 378,
+    "parent": 377,
+    "depth": 10,
+    "theta": 3.4673338273491034,
+    "status": "open",
+    "dfs": 378
+   },
+   {
+    "id": 379,
+    "parent": 378,
+    "depth": 11,
+    "theta": 3.4456177490984823,
+    "status": "open",
+    "dfs": 379
+   },
+   {
+    "id": 380,
+    "parent": 379,
+    "depth": 12,
+    "theta": 3.4456177490984823,
+    "status": "wrong output",
+    "dfs": 380
+   },
+   {
+    "id": 381,
+    "parent": 378,
+    "depth": 11,
+    "theta": 3.4600951345988964,
+    "status": "wrong output",
+    "dfs": 381
+   },
+   {
+    "id": 382,
+    "parent": 378,
+    "depth": 11,
+    "theta": 3.4745725200993105,
+    "status": "open",
+    "dfs": 382
+   },
+   {
+    "id": 383,
+    "parent": 382,
+    "depth": 12,
+    "theta": 3.4745725200993105,
+    "status": "wrong output",
+    "dfs": 383
+   },
+   {
+    "id": 384,
+    "parent": 378,
+    "depth": 11,
+    "theta": 3.489049905599724,
+    "status": "wrong output",
+    "dfs": 384
+   },
+   {
+    "id": 385,
+    "parent": 377,
+    "depth": 10,
+    "theta": 3.5035272911001383,
+    "status": "wrong output",
+    "dfs": 385
+   },
+   {
+    "id": 386,
+    "parent": 377,
+    "depth": 10,
+    "theta": 3.539720754851172,
+    "status": "open",
+    "dfs": 386
+   },
+   {
+    "id": 387,
+    "parent": 386,
+    "depth": 11,
+    "theta": 3.5180046766005515,
+    "status": "open",
+    "dfs": 387
+   },
+   {
+    "id": 388,
+    "parent": 387,
+    "depth": 12,
+    "theta": 3.5180046766005515,
+    "status": "wrong output",
+    "dfs": 388
+   },
+   {
+    "id": 389,
+    "parent": 386,
+    "depth": 11,
+    "theta": 3.5324820621009656,
+    "status": "wrong output",
+    "dfs": 389
+   },
+   {
+    "id": 390,
+    "parent": 386,
+    "depth": 11,
+    "theta": 3.5469594476013797,
+    "status": "open",
+    "dfs": 390
+   },
+   {
+    "id": 391,
+    "parent": 390,
+    "depth": 12,
+    "theta": 3.5469594476013797,
+    "status": "wrong output",
+    "dfs": 391
+   },
+   {
+    "id": 392,
+    "parent": 386,
+    "depth": 11,
+    "theta": 3.561436833101793,
+    "status": "wrong output",
+    "dfs": 392
+   },
+   {
+    "id": 393,
+    "parent": 377,
+    "depth": 10,
+    "theta": 3.575914218602207,
+    "status": "wrong output",
+    "dfs": 393
+   },
+   {
+    "id": 394,
+    "parent": 368,
+    "depth": 9,
+    "theta": 3.5903916041026207,
+    "status": "wrong output",
+    "dfs": 394
+   },
+   {
+    "id": 395,
+    "parent": 367,
+    "depth": 8,
+    "theta": 3.6048689896030344,
+    "status": "wrong output",
+    "dfs": 395
+   },
+   {
+    "id": 396,
+    "parent": 367,
+    "depth": 8,
+    "theta": 3.68449460985531,
+    "status": "open",
+    "dfs": 396
+   },
+   {
+    "id": 397,
+    "parent": 396,
+    "depth": 9,
+    "theta": 3.6410624533540688,
+    "status": "open",
+    "dfs": 397
+   },
+   {
+    "id": 398,
+    "parent": 397,
+    "depth": 10,
+    "theta": 3.619346375103448,
+    "status": "open",
+    "dfs": 398
+   },
+   {
+    "id": 399,
+    "parent": 398,
+    "depth": 11,
+    "theta": 3.619346375103448,
+    "status": "wrong output",
+    "dfs": 399
+   },
+   {
+    "id": 400,
+    "parent": 397,
+    "depth": 10,
+    "theta": 3.633823760603862,
+    "status": "wrong output",
+    "dfs": 400
+   },
+   {
+    "id": 401,
+    "parent": 397,
+    "depth": 10,
+    "theta": 3.6483011461042762,
+    "status": "open",
+    "dfs": 401
+   },
+   {
+    "id": 402,
+    "parent": 401,
+    "depth": 11,
+    "theta": 3.6483011461042762,
+    "status": "wrong output",
+    "dfs": 402
+   },
+   {
+    "id": 403,
+    "parent": 397,
+    "depth": 10,
+    "theta": 3.6627785316046895,
+    "status": "wrong output",
+    "dfs": 403
+   },
+   {
+    "id": 404,
+    "parent": 396,
+    "depth": 9,
+    "theta": 3.6772559171051036,
+    "status": "wrong output",
+    "dfs": 404
+   },
+   {
+    "id": 405,
+    "parent": 396,
+    "depth": 9,
+    "theta": 3.7134493808561375,
+    "status": "open",
+    "dfs": 405
+   },
+   {
+    "id": 406,
+    "parent": 405,
+    "depth": 10,
+    "theta": 3.691733302605517,
+    "status": "open",
+    "dfs": 406
+   },
+   {
+    "id": 407,
+    "parent": 406,
+    "depth": 11,
+    "theta": 3.691733302605517,
+    "status": "wrong output",
+    "dfs": 407
+   },
+   {
+    "id": 408,
+    "parent": 405,
+    "depth": 10,
+    "theta": 3.706210688105931,
+    "status": "wrong output",
+    "dfs": 408
+   },
+   {
+    "id": 409,
+    "parent": 405,
+    "depth": 10,
+    "theta": 3.720688073606345,
+    "status": "open",
+    "dfs": 409
+   },
+   {
+    "id": 410,
+    "parent": 409,
+    "depth": 11,
+    "theta": 3.720688073606345,
+    "status": "wrong output",
+    "dfs": 410
+   },
+   {
+    "id": 411,
+    "parent": 405,
+    "depth": 10,
+    "theta": 3.7351654591067587,
+    "status": "wrong output",
+    "dfs": 411
+   },
+   {
+    "id": 412,
+    "parent": 396,
+    "depth": 9,
+    "theta": 3.749642844607173,
+    "status": "wrong output",
+    "dfs": 412
+   },
+   {
+    "id": 413,
+    "parent": 367,
+    "depth": 8,
+    "theta": 3.764120230107586,
+    "status": "wrong output",
+    "dfs": 413
+   },
+   {
+    "id": 414,
+    "parent": 306,
+    "depth": 7,
+    "theta": 3.778597615608,
+    "status": "wrong output",
+    "dfs": 414
+   },
+   {
+    "id": 415,
+    "parent": 285,
+    "depth": 5,
+    "theta": 3.7930750011084142,
+    "status": "wrong output",
+    "dfs": 415
+   },
+   {
+    "id": 416,
+    "parent": 285,
+    "depth": 5,
+    "theta": 4.169487024119173,
+    "status": "open",
+    "dfs": 416
+   },
+   {
+    "id": 417,
+    "parent": 416,
+    "depth": 6,
+    "theta": 3.8075523866088274,
+    "status": "wrong output",
+    "dfs": 417
+   },
+   {
+    "id": 418,
+    "parent": 416,
+    "depth": 6,
+    "theta": 3.8871780068611033,
+    "status": "open",
+    "dfs": 418
+   },
+   {
+    "id": 419,
+    "parent": 418,
+    "depth": 7,
+    "theta": 3.8437458503598623,
+    "status": "open",
+    "dfs": 419
+   },
+   {
+    "id": 420,
+    "parent": 419,
+    "depth": 8,
+    "theta": 3.8220297721092416,
+    "status": "open",
+    "dfs": 420
+   },
+   {
+    "id": 421,
+    "parent": 420,
+    "depth": 9,
+    "theta": 3.8220297721092416,
+    "status": "wrong output",
+    "dfs": 421
+   },
+   {
+    "id": 422,
+    "parent": 419,
+    "depth": 8,
+    "theta": 3.8365071576096548,
+    "status": "wrong output",
+    "dfs": 422
+   },
+   {
+    "id": 423,
+    "parent": 419,
+    "depth": 8,
+    "theta": 3.850984543110069,
+    "status": "open",
+    "dfs": 423
+   },
+   {
+    "id": 424,
+    "parent": 423,
+    "depth": 9,
+    "theta": 3.850984543110069,
+    "status": "wrong output",
+    "dfs": 424
+   },
+   {
+    "id": 425,
+    "parent": 419,
+    "depth": 8,
+    "theta": 3.8654619286104825,
+    "status": "wrong output",
+    "dfs": 425
+   },
+   {
+    "id": 426,
+    "parent": 418,
+    "depth": 7,
+    "theta": 3.8799393141108967,
+    "status": "wrong output",
+    "dfs": 426
+   },
+   {
+    "id": 427,
+    "parent": 418,
+    "depth": 7,
+    "theta": 3.9161327778619315,
+    "status": "open",
+    "dfs": 427
+   },
+   {
+    "id": 428,
+    "parent": 427,
+    "depth": 8,
+    "theta": 3.8944166996113108,
+    "status": "open",
+    "dfs": 428
+   },
+   {
+    "id": 429,
+    "parent": 428,
+    "depth": 9,
+    "theta": 3.8944166996113108,
+    "status": "wrong output",
+    "dfs": 429
+   },
+   {
+    "id": 430,
+    "parent": 427,
+    "depth": 8,
+    "theta": 3.908894085111724,
+    "status": "wrong output",
+    "dfs": 430
+   },
+   {
+    "id": 431,
+    "parent": 427,
+    "depth": 8,
+    "theta": 3.923371470612138,
+    "status": "open",
+    "dfs": 431
+   },
+   {
+    "id": 432,
+    "parent": 431,
+    "depth": 9,
+    "theta": 3.923371470612138,
+    "status": "wrong output",
+    "dfs": 432
+   },
+   {
+    "id": 433,
+    "parent": 427,
+    "depth": 8,
+    "theta": 3.9378488561125513,
+    "status": "wrong output",
+    "dfs": 433
+   },
+   {
+    "id": 434,
+    "parent": 418,
+    "depth": 7,
+    "theta": 3.9523262416129654,
+    "status": "wrong output",
+    "dfs": 434
+   },
+   {
+    "id": 435,
+    "parent": 416,
+    "depth": 6,
+    "theta": 3.9668036271133795,
+    "status": "wrong output",
+    "dfs": 435
+   },
+   {
+    "id": 436,
+    "parent": 416,
+    "depth": 6,
+    "theta": 4.256351337121655,
+    "status": "open",
+    "dfs": 436
+   },
+   {
+    "id": 437,
+    "parent": 436,
+    "depth": 7,
+    "theta": 4.068145325616276,
+    "status": "open",
+    "dfs": 437
+   },
+   {
+    "id": 438,
+    "parent": 437,
+    "depth": 8,
+    "theta": 4.0029970908644135,
+    "status": "open",
+    "dfs": 438
+   },
+   {
+    "id": 439,
+    "parent": 438,
+    "depth": 9,
+    "theta": 3.981281012613793,
+    "status": "open",
+    "dfs": 439
+   },
+   {
+    "id": 440,
+    "parent": 439,
+    "depth": 10,
+    "theta": 3.981281012613793,
+    "status": "wrong output",
+    "dfs": 440
+   },
+   {
+    "id": 441,
+    "parent": 438,
+    "depth": 9,
+    "theta": 3.995758398114207,
+    "status": "wrong output",
+    "dfs": 441
+   },
+   {
+    "id": 442,
+    "parent": 438,
+    "depth": 9,
+    "theta": 4.01023578361462,
+    "status": "open",
+    "dfs": 442
+   },
+   {
+    "id": 443,
+    "parent": 442,
+    "depth": 10,
+    "theta": 4.01023578361462,
+    "status": "wrong output",
+    "dfs": 443
+   },
+   {
+    "id": 444,
+    "parent": 438,
+    "depth": 9,
+    "theta": 4.024713169115034,
+    "status": "wrong output",
+    "dfs": 444
+   },
+   {
+    "id": 445,
+    "parent": 437,
+    "depth": 8,
+    "theta": 4.039190554615448,
+    "status": "wrong output",
+    "dfs": 445
+   },
+   {
+    "id": 446,
+    "parent": 437,
+    "depth": 8,
+    "theta": 4.097100096617104,
+    "status": "open",
+    "dfs": 446
+   },
+   {
+    "id": 447,
+    "parent": 446,
+    "depth": 9,
+    "theta": 4.075384018366483,
+    "status": "open",
+    "dfs": 447
+   },
+   {
+    "id": 448,
+    "parent": 447,
+    "depth": 10,
+    "theta": 4.053667940115862,
+    "status": "open",
+    "dfs": 448
+   },
+   {
+    "id": 449,
+    "parent": 448,
+    "depth": 11,
+    "theta": 4.053667940115862,
+    "status": "wrong output",
+    "dfs": 449
+   },
+   {
+    "id": 450,
+    "parent": 447,
+    "depth": 10,
+    "theta": 4.068145325616276,
+    "status": "wrong output",
+    "dfs": 450
+   },
+   {
+    "id": 451,
+    "parent": 447,
+    "depth": 10,
+    "theta": 4.08262271111669,
+    "status": "open",
+    "dfs": 451
+   },
+   {
+    "id": 452,
+    "parent": 451,
+    "depth": 11,
+    "theta": 4.08262271111669,
+    "status": "wrong output",
+    "dfs": 452
+   },
+   {
+    "id": 453,
+    "parent": 447,
+    "depth": 10,
+    "theta": 4.097100096617104,
+    "status": "wrong output",
+    "dfs": 453
+   },
+   {
+    "id": 454,
+    "parent": 446,
+    "depth": 9,
+    "theta": 4.111577482117518,
+    "status": "wrong output",
+    "dfs": 454
+   },
+   {
+    "id": 455,
+    "parent": 446,
+    "depth": 9,
+    "theta": 4.126054867617931,
+    "status": "open",
+    "dfs": 455
+   },
+   {
+    "id": 456,
+    "parent": 455,
+    "depth": 10,
+    "theta": 4.126054867617931,
+    "status": "wrong output",
+    "dfs": 456
+   },
+   {
+    "id": 457,
+    "parent": 446,
+    "depth": 9,
+    "theta": 4.140532253118345,
+    "status": "wrong output",
+    "dfs": 457
+   },
+   {
+    "id": 458,
+    "parent": 437,
+    "depth": 8,
+    "theta": 4.1550096386187585,
+    "status": "wrong output",
+    "dfs": 458
+   },
+   {
+    "id": 459,
+    "parent": 436,
+    "depth": 7,
+    "theta": 4.169487024119173,
+    "status": "wrong output",
+    "dfs": 459
+   },
+   {
+    "id": 460,
+    "parent": 436,
+    "depth": 7,
+    "theta": 4.350454342874345,
+    "status": "open",
+    "dfs": 460
+   },
+   {
+    "id": 461,
+    "parent": 460,
+    "depth": 8,
+    "theta": 4.256351337121655,
+    "status": "open",
+    "dfs": 461
+   },
+   {
+    "id": 462,
+    "parent": 461,
+    "depth": 9,
+    "theta": 4.212919180620414,
+    "status": "open",
+    "dfs": 462
+   },
+   {
+    "id": 463,
+    "parent": 462,
+    "depth": 10,
+    "theta": 4.183964409619586,
+    "status": "wrong output",
+    "dfs": 463
+   },
+   {
+    "id": 464,
+    "parent": 462,
+    "depth": 10,
+    "theta": 4.19844179512,
+    "status": "entry conflict",
+    "dfs": 464
+   },
+   {
+    "id": 465,
+    "parent": 462,
+    "depth": 10,
+    "theta": 4.212919180620414,
+    "status": "wrong output",
+    "dfs": 465
+   },
+   {
+    "id": 466,
+    "parent": 462,
+    "depth": 10,
+    "theta": 4.227396566120827,
+    "status": "valid",
+    "dfs": 466
+   },
+   {
+    "id": 467,
+    "parent": 462,
+    "depth": 10,
+    "theta": 4.241873951621241,
+    "status": "entry conflict",
+    "dfs": 467
+   },
+   {
+    "id": 468,
+    "parent": 461,
+    "depth": 9,
+    "theta": 4.256351337121655,
+    "status": "wrong output",
+    "dfs": 468
+   },
+   {
+    "id": 469,
+    "parent": 461,
+    "depth": 9,
+    "theta": 4.292544800872689,
+    "status": "open",
+    "dfs": 469
+   },
+   {
+    "id": 470,
+    "parent": 469,
+    "depth": 10,
+    "theta": 4.270828722622069,
+    "status": "open",
+    "dfs": 470
+   },
+   {
+    "id": 471,
+    "parent": 470,
+    "depth": 11,
+    "theta": 4.270828722622069,
+    "status": "wrong output",
+    "dfs": 471
+   },
+   {
+    "id": 472,
+    "parent": 469,
+    "depth": 10,
+    "theta": 4.285306108122483,
+    "status": "wrong output",
+    "dfs": 472
+   },
+   {
+    "id": 473,
+    "parent": 469,
+    "depth": 10,
+    "theta": 4.299783493622896,
+    "status": "open",
+    "dfs": 473
+   },
+   {
+    "id": 474,
+    "parent": 473,
+    "depth": 11,
+    "theta": 4.299783493622896,
+    "status": "wrong output",
+    "dfs": 474
+   },
+   {
+    "id": 475,
+    "parent": 469,
+    "depth": 10,
+    "theta": 4.31426087912331,
+    "status": "wrong output",
+    "dfs": 475
+   },
+   {
+    "id": 476,
+    "parent": 461,
+    "depth": 9,
+    "theta": 4.328738264623724,
+    "status": "wrong output",
+    "dfs": 476
+   },
+   {
+    "id": 477,
+    "parent": 460,
+    "depth": 8,
+    "theta": 4.343215650124138,
+    "status": "wrong output",
+    "dfs": 477
+   },
+   {
+    "id": 478,
+    "parent": 460,
+    "depth": 8,
+    "theta": 4.43007996312662,
+    "status": "open",
+    "dfs": 478
+   },
+   {
+    "id": 479,
+    "parent": 478,
+    "depth": 9,
+    "theta": 4.4083638848760005,
+    "status": "open",
+    "dfs": 479
+   },
+   {
+    "id": 480,
+    "parent": 479,
+    "depth": 10,
+    "theta": 4.3576930356245525,
+    "status": "wrong output",
+    "dfs": 480
+   },
+   {
+    "id": 481,
+    "parent": 479,
+    "depth": 10,
+    "theta": 4.372170421124966,
+    "status": "entry conflict",
+    "dfs": 481
+   },
+   {
+    "id": 482,
+    "parent": 479,
+    "depth": 10,
+    "theta": 4.38664780662538,
+    "status": "wrong output",
+    "dfs": 482
+   },
+   {
+    "id": 483,
+    "parent": 479,
+    "depth": 10,
+    "theta": 4.422841270376414,
+    "status": "open",
+    "dfs": 483
+   },
+   {
+    "id": 484,
+    "parent": 483,
+    "depth": 11,
+    "theta": 4.401125192125793,
+    "status": "valid",
+    "dfs": 484
+   },
+   {
+    "id": 485,
+    "parent": 483,
+    "depth": 11,
+    "theta": 4.415602577626207,
+    "status": "wrong output",
+    "dfs": 485
+   },
+   {
+    "id": 486,
+    "parent": 483,
+    "depth": 11,
+    "theta": 4.43007996312662,
+    "status": "valid",
+    "dfs": 486
+   },
+   {
+    "id": 487,
+    "parent": 483,
+    "depth": 11,
+    "theta": 4.444557348627034,
+    "status": "wrong output",
+    "dfs": 487
+   },
+   {
+    "id": 488,
+    "parent": 479,
+    "depth": 10,
+    "theta": 4.4590347341274486,
+    "status": "entry conflict",
+    "dfs": 488
+   },
+   {
+    "id": 489,
+    "parent": 478,
+    "depth": 9,
+    "theta": 4.473512119627862,
+    "status": "wrong output",
+    "dfs": 489
+   },
+   {
+    "id": 490,
+    "parent": 478,
+    "depth": 9,
+    "theta": 4.487989505128276,
+    "status": "open",
+    "dfs": 490
+   },
+   {
+    "id": 491,
+    "parent": 490,
+    "depth": 10,
+    "theta": 4.487989505128276,
+    "status": "wrong output",
+    "dfs": 491
+   },
+   {
+    "id": 492,
+    "parent": 478,
+    "depth": 9,
+    "theta": 4.502466890628689,
+    "status": "wrong output",
+    "dfs": 492
+   },
+   {
+    "id": 493,
+    "parent": 460,
+    "depth": 8,
+    "theta": 4.516944276129103,
+    "status": "wrong output",
+    "dfs": 493
+   },
+   {
+    "id": 494,
+    "parent": 436,
+    "depth": 7,
+    "theta": 4.531421661629517,
+    "status": "wrong output",
+    "dfs": 494
+   },
+   {
+    "id": 495,
+    "parent": 285,
+    "depth": 5,
+    "theta": 4.5458990471299305,
+    "status": "entry conflict",
+    "dfs": 495
+   },
+   {
+    "id": 496,
+    "parent": 285,
+    "depth": 5,
+    "theta": 4.560376432630345,
+    "status": "wrong output",
+    "dfs": 496
+   },
+   {
+    "id": 497,
+    "parent": 283,
+    "depth": 4,
+    "theta": 4.574853818130759,
+    "status": "wrong output",
+    "dfs": 497
+   },
+   {
+    "id": 498,
+    "parent": 283,
+    "depth": 4,
+    "theta": 5.414542177154759,
+    "status": "open",
+    "dfs": 498
+   },
+   {
+    "id": 499,
+    "parent": 498,
+    "depth": 5,
+    "theta": 5.0888010033954485,
+    "status": "open",
+    "dfs": 499
+   },
+   {
+    "id": 500,
+    "parent": 499,
+    "depth": 6,
+    "theta": 4.871640220889241,
+    "status": "open",
+    "dfs": 500
+   },
+   {
+    "id": 501,
+    "parent": 500,
+    "depth": 7,
+    "theta": 4.683434209383862,
+    "status": "open",
+    "dfs": 501
+   },
+   {
+    "id": 502,
+    "parent": 501,
+    "depth": 8,
+    "theta": 4.589331203631173,
+    "status": "open",
+    "dfs": 502
+   },
+   {
+    "id": 503,
+    "parent": 502,
+    "depth": 9,
+    "theta": 4.589331203631173,
+    "status": "wrong output",
+    "dfs": 503
+   },
+   {
+    "id": 504,
+    "parent": 501,
+    "depth": 8,
+    "theta": 4.603808589131586,
+    "status": "wrong output",
+    "dfs": 504
+   },
+   {
+    "id": 505,
+    "parent": 501,
+    "depth": 8,
+    "theta": 4.690672902134069,
+    "status": "open",
+    "dfs": 505
+   },
+   {
+    "id": 506,
+    "parent": 505,
+    "depth": 9,
+    "theta": 4.618285974632,
+    "status": "wrong output",
+    "dfs": 506
+   },
+   {
+    "id": 507,
+    "parent": 505,
+    "depth": 9,
+    "theta": 4.632763360132414,
+    "status": "entry conflict",
+    "dfs": 507
+   },
+   {
+    "id": 508,
+    "parent": 505,
+    "depth": 9,
+    "theta": 4.6472407456328275,
+    "status": "entry conflict",
+    "dfs": 508
+   },
+   {
+    "id": 509,
+    "parent": 505,
+    "depth": 9,
+    "theta": 4.661718131133242,
+    "status": "wrong output",
+    "dfs": 509
+   },
+   {
+    "id": 510,
+    "parent": 505,
+    "depth": 9,
+    "theta": 4.719627673134896,
+    "status": "open",
+    "dfs": 510
+   },
+   {
+    "id": 511,
+    "parent": 510,
+    "depth": 10,
+    "theta": 4.676195516633656,
+    "status": "valid",
+    "dfs": 511
+   },
+   {
+    "id": 512,
+    "parent": 510,
+    "depth": 10,
+    "theta": 4.690672902134069,
+    "status": "wrong output",
+    "dfs": 512
+   },
+   {
+    "id": 513,
+    "parent": 510,
+    "depth": 10,
+    "theta": 4.726866365885104,
+    "status": "open",
+    "dfs": 513
+   },
+   {
+    "id": 514,
+    "parent": 513,
+    "depth": 11,
+    "theta": 4.705150287634483,
+    "status": "valid",
+    "dfs": 514
+   },
+   {
+    "id": 515,
+    "parent": 513,
+    "depth": 11,
+    "theta": 4.719627673134896,
+    "status": "wrong output",
+    "dfs": 515
+   },
+   {
+    "id": 516,
+    "parent": 513,
+    "depth": 11,
+    "theta": 4.73410505863531,
+    "status": "open",
+    "dfs": 516
+   },
+   {
+    "id": 517,
+    "parent": 516,
+    "depth": 12,
+    "theta": 4.73410505863531,
+    "status": "wrong output",
+    "dfs": 517
+   },
+   {
+    "id": 518,
+    "parent": 513,
+    "depth": 11,
+    "theta": 4.748582444135724,
+    "status": "wrong output",
+    "dfs": 518
+   },
+   {
+    "id": 519,
+    "parent": 510,
+    "depth": 10,
+    "theta": 4.763059829636138,
+    "status": "wrong output",
+    "dfs": 519
+   },
+   {
+    "id": 520,
+    "parent": 501,
+    "depth": 8,
+    "theta": 4.777537215136552,
+    "status": "wrong output",
+    "dfs": 520
+   },
+   {
+    "id": 521,
+    "parent": 500,
+    "depth": 7,
+    "theta": 4.792014600636965,
+    "status": "wrong output",
+    "dfs": 521
+   },
+   {
+    "id": 522,
+    "parent": 500,
+    "depth": 7,
+    "theta": 4.972981919392138,
+    "status": "open",
+    "dfs": 522
+   },
+   {
+    "id": 523,
+    "parent": 522,
+    "depth": 8,
+    "theta": 4.871640220889241,
+    "status": "open",
+    "dfs": 523
+   },
+   {
+    "id": 524,
+    "parent": 523,
+    "depth": 9,
+    "theta": 4.828208064388,
+    "status": "open",
+    "dfs": 524
+   },
+   {
+    "id": 525,
+    "parent": 524,
+    "depth": 10,
+    "theta": 4.806491986137379,
+    "status": "open",
+    "dfs": 525
+   },
+   {
+    "id": 526,
+    "parent": 525,
+    "depth": 11,
+    "theta": 4.806491986137379,
+    "status": "wrong output",
+    "dfs": 526
+   },
+   {
+    "id": 527,
+    "parent": 524,
+    "depth": 10,
+    "theta": 4.820969371637793,
+    "status": "wrong output",
+    "dfs": 527
+   },
+   {
+    "id": 528,
+    "parent": 524,
+    "depth": 10,
+    "theta": 4.8354467571382065,
+    "status": "open",
+    "dfs": 528
+   },
+   {
+    "id": 529,
+    "parent": 528,
+    "depth": 11,
+    "theta": 4.8354467571382065,
+    "status": "wrong output",
+    "dfs": 529
+   },
+   {
+    "id": 530,
+    "parent": 524,
+    "depth": 10,
+    "theta": 4.849924142638621,
+    "status": "wrong output",
+    "dfs": 530
+   },
+   {
+    "id": 531,
+    "parent": 523,
+    "depth": 9,
+    "theta": 4.864401528139035,
+    "status": "wrong output",
+    "dfs": 531
+   },
+   {
+    "id": 532,
+    "parent": 523,
+    "depth": 9,
+    "theta": 4.9005949918900695,
+    "status": "open",
+    "dfs": 532
+   },
+   {
+    "id": 533,
+    "parent": 532,
+    "depth": 10,
+    "theta": 4.878878913639449,
+    "status": "open",
+    "dfs": 533
+   },
+   {
+    "id": 534,
+    "parent": 533,
+    "depth": 11,
+    "theta": 4.878878913639449,
+    "status": "wrong output",
+    "dfs": 534
+   },
+   {
+    "id": 535,
+    "parent": 532,
+    "depth": 10,
+    "theta": 4.893356299139862,
+    "status": "wrong output",
+    "dfs": 535
+   },
+   {
+    "id": 536,
+    "parent": 532,
+    "depth": 10,
+    "theta": 4.907833684640276,
+    "status": "open",
+    "dfs": 536
+   },
+   {
+    "id": 537,
+    "parent": 536,
+    "depth": 11,
+    "theta": 4.907833684640276,
+    "status": "wrong output",
+    "dfs": 537
+   },
+   {
+    "id": 538,
+    "parent": 532,
+    "depth": 10,
+    "theta": 4.92231107014069,
+    "status": "wrong output",
+    "dfs": 538
+   },
+   {
+    "id": 539,
+    "parent": 523,
+    "depth": 9,
+    "theta": 4.9367884556411035,
+    "status": "wrong output",
+    "dfs": 539
+   },
+   {
+    "id": 540,
+    "parent": 522,
+    "depth": 8,
+    "theta": 4.951265841141518,
+    "status": "wrong output",
+    "dfs": 540
+   },
+   {
+    "id": 541,
+    "parent": 522,
+    "depth": 8,
+    "theta": 5.045368846894207,
+    "status": "open",
+    "dfs": 541
+   },
+   {
+    "id": 542,
+    "parent": 541,
+    "depth": 9,
+    "theta": 4.994697997642759,
+    "status": "open",
+    "dfs": 542
+   },
+   {
+    "id": 543,
+    "parent": 542,
+    "depth": 10,
+    "theta": 4.965743226641931,
+    "status": "wrong output",
+    "dfs": 543
+   },
+   {
+    "id": 544,
+    "parent": 542,
+    "depth": 10,
+    "theta": 4.980220612142345,
+    "status": "entry conflict",
+    "dfs": 544
+   },
+   {
+    "id": 545,
+    "parent": 542,
+    "depth": 10,
+    "theta": 4.994697997642759,
+    "status": "entry conflict",
+    "dfs": 545
+   },
+   {
+    "id": 546,
+    "parent": 542,
+    "depth": 10,
+    "theta": 5.009175383143172,
+    "status": "wrong output",
+    "dfs": 546
+   },
+   {
+    "id": 547,
+    "parent": 542,
+    "depth": 10,
+    "theta": 5.023652768643586,
+    "status": "valid",
+    "dfs": 547
+   },
+   {
+    "id": 548,
+    "parent": 541,
+    "depth": 9,
+    "theta": 5.038130154144,
+    "status": "wrong output",
+    "dfs": 548
+   },
+   {
+    "id": 549,
+    "parent": 541,
+    "depth": 9,
+    "theta": 5.081562310645241,
+    "status": "open",
+    "dfs": 549
+   },
+   {
+    "id": 550,
+    "parent": 549,
+    "depth": 10,
+    "theta": 5.052607539644414,
+    "status": "wrong output",
+    "dfs": 550
+   },
+   {
+    "id": 551,
+    "parent": 549,
+    "depth": 10,
+    "theta": 5.067084925144827,
+    "status": "entry conflict",
+    "dfs": 551
+   },
+   {
+    "id": 552,
+    "parent": 549,
+    "depth": 10,
+    "theta": 5.081562310645241,
+    "status": "entry conflict",
+    "dfs": 552
+   },
+   {
+    "id": 553,
+    "parent": 549,
+    "depth": 10,
+    "theta": 5.096039696145655,
+    "status": "wrong output",
+    "dfs": 553
+   },
+   {
+    "id": 554,
+    "parent": 549,
+    "depth": 10,
+    "theta": 5.110517081646069,
+    "status": "open",
+    "dfs": 554
+   },
+   {
+    "id": 555,
+    "parent": 554,
+    "depth": 11,
+    "theta": 5.110517081646069,
+    "status": "wrong output",
+    "dfs": 555
+   },
+   {
+    "id": 556,
+    "parent": 541,
+    "depth": 9,
+    "theta": 5.124994467146483,
+    "status": "wrong output",
+    "dfs": 556
+   },
+   {
+    "id": 557,
+    "parent": 522,
+    "depth": 8,
+    "theta": 5.1394718526468965,
+    "status": "wrong output",
+    "dfs": 557
+   },
+   {
+    "id": 558,
+    "parent": 500,
+    "depth": 7,
+    "theta": 5.153949238147311,
+    "status": "wrong output",
+    "dfs": 558
+   },
+   {
+    "id": 559,
+    "parent": 499,
+    "depth": 6,
+    "theta": 5.168426623647725,
+    "status": "wrong output",
+    "dfs": 559
+   },
+   {
+    "id": 560,
+    "parent": 499,
+    "depth": 6,
+    "theta": 5.3783487134037244,
+    "status": "open",
+    "dfs": 560
+   },
+   {
+    "id": 561,
+    "parent": 560,
+    "depth": 7,
+    "theta": 5.291484400401242,
+    "status": "open",
+    "dfs": 561
+   },
+   {
+    "id": 562,
+    "parent": 561,
+    "depth": 8,
+    "theta": 5.204620087398759,
+    "status": "open",
+    "dfs": 562
+   },
+   {
+    "id": 563,
+    "parent": 562,
+    "depth": 9,
+    "theta": 5.182904009148138,
+    "status": "open",
+    "dfs": 563
+   },
+   {
+    "id": 564,
+    "parent": 563,
+    "depth": 10,
+    "theta": 5.182904009148138,
+    "status": "wrong output",
+    "dfs": 564
+   },
+   {
+    "id": 565,
+    "parent": 562,
+    "depth": 9,
+    "theta": 5.197381394648552,
+    "status": "wrong output",
+    "dfs": 565
+   },
+   {
+    "id": 566,
+    "parent": 562,
+    "depth": 9,
+    "theta": 5.211858780148965,
+    "status": "open",
+    "dfs": 566
+   },
+   {
+    "id": 567,
+    "parent": 566,
+    "depth": 10,
+    "theta": 5.211858780148965,
+    "status": "wrong output",
+    "dfs": 567
+   },
+   {
+    "id": 568,
+    "parent": 562,
+    "depth": 9,
+    "theta": 5.226336165649379,
+    "status": "wrong output",
+    "dfs": 568
+   },
+   {
+    "id": 569,
+    "parent": 561,
+    "depth": 8,
+    "theta": 5.2408135511497935,
+    "status": "wrong output",
+    "dfs": 569
+   },
+   {
+    "id": 570,
+    "parent": 561,
+    "depth": 8,
+    "theta": 5.320439171402069,
+    "status": "open",
+    "dfs": 570
+   },
+   {
+    "id": 571,
+    "parent": 570,
+    "depth": 9,
+    "theta": 5.2770070149008275,
+    "status": "open",
+    "dfs": 571
+   },
+   {
+    "id": 572,
+    "parent": 571,
+    "depth": 10,
+    "theta": 5.255290936650207,
+    "status": "open",
+    "dfs": 572
+   },
+   {
+    "id": 573,
+    "parent": 572,
+    "depth": 11,
+    "theta": 5.255290936650207,
+    "status": "wrong output",
+    "dfs": 573
+   },
+   {
+    "id": 574,
+    "parent": 571,
+    "depth": 10,
+    "theta": 5.269768322150621,
+    "status": "wrong output",
+    "dfs": 574
+   },
+   {
+    "id": 575,
+    "parent": 571,
+    "depth": 10,
+    "theta": 5.284245707651034,
+    "status": "open",
+    "dfs": 575
+   },
+   {
+    "id": 576,
+    "parent": 575,
+    "depth": 11,
+    "theta": 5.284245707651034,
+    "status": "wrong output",
+    "dfs": 576
+   },
+   {
+    "id": 577,
+    "parent": 571,
+    "depth": 10,
+    "theta": 5.298723093151448,
+    "status": "wrong output",
+    "dfs": 577
+   },
+   {
+    "id": 578,
+    "parent": 570,
+    "depth": 9,
+    "theta": 5.313200478651861,
+    "status": "wrong output",
+    "dfs": 578
+   },
+   {
+    "id": 579,
+    "parent": 570,
+    "depth": 9,
+    "theta": 5.349393942402896,
+    "status": "open",
+    "dfs": 579
+   },
+   {
+    "id": 580,
+    "parent": 579,
+    "depth": 10,
+    "theta": 5.3276778641522755,
+    "status": "open",
+    "dfs": 580
+   },
+   {
+    "id": 581,
+    "parent": 580,
+    "depth": 11,
+    "theta": 5.3276778641522755,
+    "status": "wrong output",
+    "dfs": 581
+   },
+   {
+    "id": 582,
+    "parent": 579,
+    "depth": 10,
+    "theta": 5.34215524965269,
+    "status": "wrong output",
+    "dfs": 582
+   },
+   {
+    "id": 583,
+    "parent": 579,
+    "depth": 10,
+    "theta": 5.356632635153104,
+    "status": "open",
+    "dfs": 583
+   },
+   {
+    "id": 584,
+    "parent": 583,
+    "depth": 11,
+    "theta": 5.356632635153104,
+    "status": "wrong output",
+    "dfs": 584
+   },
+   {
+    "id": 585,
+    "parent": 579,
+    "depth": 10,
+    "theta": 5.371110020653517,
+    "status": "wrong output",
+    "dfs": 585
+   },
+   {
+    "id": 586,
+    "parent": 570,
+    "depth": 9,
+    "theta": 5.385587406153931,
+    "status": "wrong output",
+    "dfs": 586
+   },
+   {
+    "id": 587,
+    "parent": 561,
+    "depth": 8,
+    "theta": 5.400064791654345,
+    "status": "wrong output",
+    "dfs": 587
+   },
+   {
+    "id": 588,
+    "parent": 560,
+    "depth": 7,
+    "theta": 5.414542177154759,
+    "status": "wrong output",
+    "dfs": 588
+   },
+   {
+    "id": 589,
+    "parent": 560,
+    "depth": 7,
+    "theta": 5.494167797407035,
+    "status": "open",
+    "dfs": 589
+   },
+   {
+    "id": 590,
+    "parent": 589,
+    "depth": 8,
+    "theta": 5.450735640905793,
+    "status": "open",
+    "dfs": 590
+   },
+   {
+    "id": 591,
+    "parent": 590,
+    "depth": 9,
+    "theta": 5.4290195626551725,
+    "status": "open",
+    "dfs": 591
+   },
+   {
+    "id": 592,
+    "parent": 591,
+    "depth": 10,
+    "theta": 5.4290195626551725,
+    "status": "wrong output",
+    "dfs": 592
+   },
+   {
+    "id": 593,
+    "parent": 590,
+    "depth": 9,
+    "theta": 5.443496948155587,
+    "status": "wrong output",
+    "dfs": 593
+   },
+   {
+    "id": 594,
+    "parent": 590,
+    "depth": 9,
+    "theta": 5.457974333656,
+    "status": "open",
+    "dfs": 594
+   },
+   {
+    "id": 595,
+    "parent": 594,
+    "depth": 10,
+    "theta": 5.457974333656,
+    "status": "wrong output",
+    "dfs": 595
+   },
+   {
+    "id": 596,
+    "parent": 590,
+    "depth": 9,
+    "theta": 5.472451719156414,
+    "status": "wrong output",
+    "dfs": 596
+   },
+   {
+    "id": 597,
+    "parent": 589,
+    "depth": 8,
+    "theta": 5.486929104656828,
+    "status": "wrong output",
+    "dfs": 597
+   },
+   {
+    "id": 598,
+    "parent": 589,
+    "depth": 8,
+    "theta": 5.523122568407862,
+    "status": "open",
+    "dfs": 598
+   },
+   {
+    "id": 599,
+    "parent": 598,
+    "depth": 9,
+    "theta": 5.501406490157241,
+    "status": "open",
+    "dfs": 599
+   },
+   {
+    "id": 600,
+    "parent": 599,
+    "depth": 10,
+    "theta": 5.501406490157241,
+    "status": "wrong output",
+    "dfs": 600
+   },
+   {
+    "id": 601,
+    "parent": 598,
+    "depth": 9,
+    "theta": 5.515883875657655,
+    "status": "wrong output",
+    "dfs": 601
+   },
+   {
+    "id": 602,
+    "parent": 598,
+    "depth": 9,
+    "theta": 5.530361261158069,
+    "status": "open",
+    "dfs": 602
+   },
+   {
+    "id": 603,
+    "parent": 602,
+    "depth": 10,
+    "theta": 5.530361261158069,
+    "status": "wrong output",
+    "dfs": 603
+   },
+   {
+    "id": 604,
+    "parent": 598,
+    "depth": 9,
+    "theta": 5.544838646658483,
+    "status": "wrong output",
+    "dfs": 604
+   },
+   {
+    "id": 605,
+    "parent": 589,
+    "depth": 8,
+    "theta": 5.559316032158897,
+    "status": "wrong output",
+    "dfs": 605
+   },
+   {
+    "id": 606,
+    "parent": 560,
+    "depth": 7,
+    "theta": 5.57379341765931,
+    "status": "wrong output",
+    "dfs": 606
+   },
+   {
+    "id": 607,
+    "parent": 499,
+    "depth": 6,
+    "theta": 5.588270803159724,
+    "status": "wrong output",
+    "dfs": 607
+   },
+   {
+    "id": 608,
+    "parent": 498,
+    "depth": 5,
+    "theta": 5.602748188660137,
+    "status": "wrong output",
+    "dfs": 608
+   },
+   {
+    "id": 609,
+    "parent": 498,
+    "depth": 5,
+    "theta": 5.914011976919035,
+    "status": "open",
+    "dfs": 609
+   },
+   {
+    "id": 610,
+    "parent": 609,
+    "depth": 6,
+    "theta": 5.704089887163034,
+    "status": "open",
+    "dfs": 610
+   },
+   {
+    "id": 611,
+    "parent": 610,
+    "depth": 7,
+    "theta": 5.638941652411172,
+    "status": "open",
+    "dfs": 611
+   },
+   {
+    "id": 612,
+    "parent": 611,
+    "depth": 8,
+    "theta": 5.6172255741605515,
+    "status": "open",
+    "dfs": 612
+   },
+   {
+    "id": 613,
+    "parent": 612,
+    "depth": 9,
+    "theta": 5.6172255741605515,
+    "status": "wrong output",
+    "dfs": 613
+   },
+   {
+    "id": 614,
+    "parent": 611,
+    "depth": 8,
+    "theta": 5.631702959660966,
+    "status": "wrong output",
+    "dfs": 614
+   },
+   {
+    "id": 615,
+    "parent": 611,
+    "depth": 8,
+    "theta": 5.64618034516138,
+    "status": "open",
+    "dfs": 615
+   },
+   {
+    "id": 616,
+    "parent": 615,
+    "depth": 9,
+    "theta": 5.64618034516138,
+    "status": "wrong output",
+    "dfs": 616
+   },
+   {
+    "id": 617,
+    "parent": 611,
+    "depth": 8,
+    "theta": 5.660657730661794,
+    "status": "wrong output",
+    "dfs": 617
+   },
+   {
+    "id": 618,
+    "parent": 610,
+    "depth": 7,
+    "theta": 5.675135116162207,
+    "status": "wrong output",
+    "dfs": 618
+   },
+   {
+    "id": 619,
+    "parent": 610,
+    "depth": 7,
+    "theta": 5.7330446581638626,
+    "status": "open",
+    "dfs": 619
+   },
+   {
+    "id": 620,
+    "parent": 619,
+    "depth": 8,
+    "theta": 5.711328579913242,
+    "status": "open",
+    "dfs": 620
+   },
+   {
+    "id": 621,
+    "parent": 620,
+    "depth": 9,
+    "theta": 5.689612501662621,
+    "status": "open",
+    "dfs": 621
+   },
+   {
+    "id": 622,
+    "parent": 621,
+    "depth": 10,
+    "theta": 5.689612501662621,
+    "status": "wrong output",
+    "dfs": 622
+   },
+   {
+    "id": 623,
+    "parent": 620,
+    "depth": 9,
+    "theta": 5.704089887163034,
+    "status": "wrong output",
+    "dfs": 623
+   },
+   {
+    "id": 624,
+    "parent": 620,
+    "depth": 9,
+    "theta": 5.718567272663448,
+    "status": "open",
+    "dfs": 624
+   },
+   {
+    "id": 625,
+    "parent": 624,
+    "depth": 10,
+    "theta": 5.718567272663448,
+    "status": "wrong output",
+    "dfs": 625
+   },
+   {
+    "id": 626,
+    "parent": 620,
+    "depth": 9,
+    "theta": 5.7330446581638626,
+    "status": "wrong output",
+    "dfs": 626
+   },
+   {
+    "id": 627,
+    "parent": 619,
+    "depth": 8,
+    "theta": 5.747522043664276,
+    "status": "wrong output",
+    "dfs": 627
+   },
+   {
+    "id": 628,
+    "parent": 619,
+    "depth": 8,
+    "theta": 5.76199942916469,
+    "status": "open",
+    "dfs": 628
+   },
+   {
+    "id": 629,
+    "parent": 628,
+    "depth": 9,
+    "theta": 5.76199942916469,
+    "status": "wrong output",
+    "dfs": 629
+   },
+   {
+    "id": 630,
+    "parent": 619,
+    "depth": 8,
+    "theta": 5.776476814665103,
+    "status": "wrong output",
+    "dfs": 630
+   },
+   {
+    "id": 631,
+    "parent": 610,
+    "depth": 7,
+    "theta": 5.790954200165517,
+    "status": "wrong output",
+    "dfs": 631
+   },
+   {
+    "id": 632,
+    "parent": 609,
+    "depth": 6,
+    "theta": 5.805431585665931,
+    "status": "wrong output",
+    "dfs": 632
+   },
+   {
+    "id": 633,
+    "parent": 609,
+    "depth": 6,
+    "theta": 6.008114982671724,
+    "status": "open",
+    "dfs": 633
+   },
+   {
+    "id": 634,
+    "parent": 633,
+    "depth": 7,
+    "theta": 5.892295898668414,
+    "status": "open",
+    "dfs": 634
+   },
+   {
+    "id": 635,
+    "parent": 634,
+    "depth": 8,
+    "theta": 5.848863742167172,
+    "status": "open",
+    "dfs": 635
+   },
+   {
+    "id": 636,
+    "parent": 635,
+    "depth": 9,
+    "theta": 5.8199089711663445,
+    "status": "wrong output",
+    "dfs": 636
+   },
+   {
+    "id": 637,
+    "parent": 635,
+    "depth": 9,
+    "theta": 5.834386356666759,
+    "status": "open",
+    "dfs": 637
+   },
+   {
+    "id": 638,
+    "parent": 637,
+    "depth": 10,
+    "theta": 5.834386356666759,
+    "status": "wrong output",
+    "dfs": 638
+   },
+   {
+    "id": 639,
+    "parent": 635,
+    "depth": 9,
+    "theta": 5.848863742167172,
+    "status": "wrong output",
+    "dfs": 639
+   },
+   {
+    "id": 640,
+    "parent": 635,
+    "depth": 9,
+    "theta": 5.863341127667586,
+    "status": "valid",
+    "dfs": 640
+   },
+   {
+    "id": 641,
+    "parent": 635,
+    "depth": 9,
+    "theta": 5.877818513168,
+    "status": "entry conflict",
+    "dfs": 641
+   },
+   {
+    "id": 642,
+    "parent": 634,
+    "depth": 8,
+    "theta": 5.892295898668414,
+    "status": "wrong output",
+    "dfs": 642
+   },
+   {
+    "id": 643,
+    "parent": 634,
+    "depth": 8,
+    "theta": 5.928489362419449,
+    "status": "open",
+    "dfs": 643
+   },
+   {
+    "id": 644,
+    "parent": 643,
+    "depth": 9,
+    "theta": 5.906773284168827,
+    "status": "open",
+    "dfs": 644
+   },
+   {
+    "id": 645,
+    "parent": 644,
+    "depth": 10,
+    "theta": 5.906773284168827,
+    "status": "wrong output",
+    "dfs": 645
+   },
+   {
+    "id": 646,
+    "parent": 643,
+    "depth": 9,
+    "theta": 5.9212506696692415,
+    "status": "wrong output",
+    "dfs": 646
+   },
+   {
+    "id": 647,
+    "parent": 643,
+    "depth": 9,
+    "theta": 5.935728055169656,
+    "status": "open",
+    "dfs": 647
+   },
+   {
+    "id": 648,
+    "parent": 647,
+    "depth": 10,
+    "theta": 5.935728055169656,
+    "status": "wrong output",
+    "dfs": 648
+   },
+   {
+    "id": 649,
+    "parent": 643,
+    "depth": 9,
+    "theta": 5.950205440670069,
+    "status": "wrong output",
+    "dfs": 649
+   },
+   {
+    "id": 650,
+    "parent": 634,
+    "depth": 8,
+    "theta": 5.964682826170483,
+    "status": "wrong output",
+    "dfs": 650
+   },
+   {
+    "id": 651,
+    "parent": 633,
+    "depth": 7,
+    "theta": 5.979160211670897,
+    "status": "wrong output",
+    "dfs": 651
+   },
+   {
+    "id": 652,
+    "parent": 633,
+    "depth": 7,
+    "theta": 6.087740602924,
+    "status": "open",
+    "dfs": 652
+   },
+   {
+    "id": 653,
+    "parent": 652,
+    "depth": 8,
+    "theta": 6.066024524673379,
+    "status": "open",
+    "dfs": 653
+   },
+   {
+    "id": 654,
+    "parent": 653,
+    "depth": 9,
+    "theta": 5.99363759717131,
+    "status": "wrong output",
+    "dfs": 654
+   },
+   {
+    "id": 655,
+    "parent": 653,
+    "depth": 9,
+    "theta": 6.029831060922345,
+    "status": "open",
+    "dfs": 655
+   },
+   {
+    "id": 656,
+    "parent": 655,
+    "depth": 10,
+    "theta": 6.008114982671724,
+    "status": "open",
+    "dfs": 656
+   },
+   {
+    "id": 657,
+    "parent": 656,
+    "depth": 11,
+    "theta": 6.008114982671724,
+    "status": "wrong output",
+    "dfs": 657
+   },
+   {
+    "id": 658,
+    "parent": 655,
+    "depth": 10,
+    "theta": 6.022592368172138,
+    "status": "wrong output",
+    "dfs": 658
+   },
+   {
+    "id": 659,
+    "parent": 655,
+    "depth": 10,
+    "theta": 6.037069753672552,
+    "status": "open",
+    "dfs": 659
+   },
+   {
+    "id": 660,
+    "parent": 659,
+    "depth": 11,
+    "theta": 6.037069753672552,
+    "status": "wrong output",
+    "dfs": 660
+   },
+   {
+    "id": 661,
+    "parent": 655,
+    "depth": 10,
+    "theta": 6.051547139172966,
+    "status": "wrong output",
+    "dfs": 661
+   },
+   {
+    "id": 662,
+    "parent": 653,
+    "depth": 9,
+    "theta": 6.066024524673379,
+    "status": "wrong output",
+    "dfs": 662
+   },
+   {
+    "id": 663,
+    "parent": 653,
+    "depth": 9,
+    "theta": 6.102217988424414,
+    "status": "open",
+    "dfs": 663
+   },
+   {
+    "id": 664,
+    "parent": 663,
+    "depth": 10,
+    "theta": 6.080501910173793,
+    "status": "valid",
+    "dfs": 664
+   },
+   {
+    "id": 665,
+    "parent": 663,
+    "depth": 10,
+    "theta": 6.094979295674206,
+    "status": "wrong output",
+    "dfs": 665
+   },
+   {
+    "id": 666,
+    "parent": 663,
+    "depth": 10,
+    "theta": 6.1094566811746205,
+    "status": "valid",
+    "dfs": 666
+   },
+   {
+    "id": 667,
+    "parent": 663,
+    "depth": 10,
+    "theta": 6.123934066675035,
+    "status": "wrong output",
+    "dfs": 667
+   },
+   {
+    "id": 668,
+    "parent": 653,
+    "depth": 9,
+    "theta": 6.138411452175448,
+    "status": "entry conflict",
+    "dfs": 668
+   },
+   {
+    "id": 669,
+    "parent": 652,
+    "depth": 8,
+    "theta": 6.152888837675862,
+    "status": "wrong output",
+    "dfs": 669
+   },
+   {
+    "id": 670,
+    "parent": 652,
+    "depth": 8,
+    "theta": 6.167366223176276,
+    "status": "open",
+    "dfs": 670
+   },
+   {
+    "id": 671,
+    "parent": 670,
+    "depth": 9,
+    "theta": 6.167366223176276,
+    "status": "wrong output",
+    "dfs": 671
+   },
+   {
+    "id": 672,
+    "parent": 652,
+    "depth": 8,
+    "theta": 6.18184360867669,
+    "status": "wrong output",
+    "dfs": 672
+   },
+   {
+    "id": 673,
+    "parent": 633,
+    "depth": 7,
+    "theta": 6.196320994177103,
+    "status": "wrong output",
+    "dfs": 673
+   },
+   {
+    "id": 674,
+    "parent": 609,
+    "depth": 6,
+    "theta": 6.2107983796775175,
+    "status": "wrong output",
+    "dfs": 674
+   },
+   {
+    "id": 675,
+    "parent": 498,
+    "depth": 5,
+    "theta": 6.225275765177932,
+    "status": "entry conflict",
+    "dfs": 675
+   },
+   {
+    "id": 676,
+    "parent": 498,
+    "depth": 5,
+    "theta": 6.239753150678345,
+    "status": "wrong output",
+    "dfs": 676
+   },
+   {
+    "id": 677,
+    "parent": 281,
+    "depth": 3,
+    "theta": 6.254230536178759,
+    "status": "wrong output",
+    "dfs": 677
+   },
+   {
+    "id": 678,
+    "parent": 281,
+    "depth": 3,
+    "theta": 6.268707921679172,
+    "status": "open",
+    "dfs": 678
+   },
+   {
+    "id": 679,
+    "parent": 678,
+    "depth": 4,
+    "theta": 6.268707921679172,
+    "status": "wrong output",
+    "dfs": 679
+   }
+  ],
+  "n_leaves": 434,
+  "max_depth": 13,
+  "stats": {
+   "wrong output": 384,
+   "entry conflict": 32,
+   "non-convergence": 0,
+   "valid": 18,
+   "branches": 295
+  },
+  "n_valid": 18,
+  "walk_ids": {
+   "root": 0,
+   "cands": [
+    1,
+    2,
+    240,
+    241
+   ],
+   "chain": [
+    241,
+    281,
+    283,
+    285
+   ],
+   "conflict": 495
+  }
+ },
+ "walk": {
+  "init": {
+   "i": 1,
+   "s": 3
+  },
+  "group_input": 0,
+  "candidates": [
+   {
+    "s2": 0,
+    "status": "wrong output",
+    "path": null,
+    "inferred": null
+   },
+   {
+    "s2": 1,
+    "status": "open",
+    "path": [
+     3,
+     1
+    ],
+    "inferred": [
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      0,
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "s2": 2,
+    "status": "wrong output",
+    "path": null,
+    "inferred": null
+   },
+   {
+    "s2": 3,
+    "status": "open",
+    "path": [
+     3
+    ],
+    "inferred": [
+     [
+      0,
+      3,
+      3
+     ]
+    ]
+   }
+  ],
+  "branches": [
+   {
+    "s2": 1,
+    "path": [
+     3,
+     1
+    ],
+    "inferred": [
+     [
+      0,
+      3,
+      1
+     ],
+     [
+      0,
+      1,
+      1
+     ]
+    ]
+   },
+   {
+    "s2": 3,
+    "path": [
+     3
+    ],
+    "inferred": [
+     [
+      0,
+      3,
+      3
+     ]
+    ]
+   }
+  ],
+  "conflict": {
+   "edge": [
+    2,
+    1,
+    3,
+    2
+   ],
+   "path": [
+    1,
+    3,
+    2
+   ],
+   "clash": [
+    [
+     3,
+     3,
+     2,
+     3
+    ]
+   ],
+   "delta": [
+    [
+     1,
+     3,
+     3
+    ],
+    [
+     0,
+     3,
+     3
+    ],
+    [
+     3,
+     3,
+     3
+    ],
+    [
+     2,
+     3,
+     1
+    ],
+    [
+     2,
+     1,
+     1
+    ],
+    [
+     0,
+     1,
+     1
+    ]
+   ],
+   "chain": [
+    {
+     "edge": [
+      1,
+      3,
+      0,
+      3
+     ],
+     "path": [
+      3
+     ],
+     "inferred": [
+      [
+       0,
+       3,
+       3
+      ]
+     ]
+    },
+    {
+     "edge": [
+      1,
+      3,
+      3,
+      3
+     ],
+     "path": [
+      3
+     ],
+     "inferred": [
+      [
+       3,
+       3,
+       3
+      ]
+     ]
+    },
+    {
+     "edge": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "path": [
+      3,
+      1
+     ],
+     "inferred": [
+      [
+       2,
+       3,
+       1
+      ],
+      [
+       2,
+       1,
+       1
+      ]
+     ]
+    },
+    {
+     "edge": [
+      2,
+      1,
+      0,
+      1
+     ],
+     "path": [
+      1
+     ],
+     "inferred": [
+      [
+       0,
+       1,
+       1
+      ]
+     ]
+    }
+   ],
+   "depth": 5
+  }
+ },
+ "segen": {
+  "original": {
+   "inputs": [
+    1,
+    0,
+    1,
+    3,
+    2,
+    3,
+    2
+   ],
+   "q": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "expected": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "states": [
+    3,
+    1,
+    3,
+    3,
+    1,
+    0,
+    2
+   ]
+  },
+  "modified": {
+   "inputs": [
+    1,
+    0,
+    1,
+    3,
+    2,
+    3,
+    1
+   ],
+   "q": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "expected": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "states": [
+    3,
+    1,
+    3,
+    3,
+    1,
+    0,
+    3
+   ]
+  }
+ },
+ "ff1": {
+  "table": [
+   [
+    0,
+    0,
+    4
+   ],
+   [
+    0,
+    3,
+    7
+   ],
+   [
+    0,
+    4,
+    6
+   ],
+   [
+    0,
+    5,
+    7
+   ],
+   [
+    0,
+    6,
+    6
+   ],
+   [
+    0,
+    7,
+    7
+   ],
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    1,
+    3,
+    3
+   ],
+   [
+    1,
+    6,
+    7
+   ],
+   [
+    1,
+    7,
+    3
+   ],
+   [
+    2,
+    0,
+    4
+   ],
+   [
+    2,
+    3,
+    7
+   ],
+   [
+    2,
+    4,
+    4
+   ],
+   [
+    2,
+    5,
+    5
+   ],
+   [
+    2,
+    6,
+    4
+   ],
+   [
+    2,
+    7,
+    5
+   ],
+   [
+    3,
+    0,
+    0
+   ],
+   [
+    3,
+    3,
+    3
+   ],
+   [
+    3,
+    4,
+    0
+   ],
+   [
+    3,
+    5,
+    4
+   ]
+  ],
+  "estg_nodes": [
+   [
+    0,
+    6
+   ],
+   [
+    0,
+    7
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    3,
+    3
+   ]
+  ],
+  "traj": [
+   {
+    "input": 0,
+    "path": [
+     3,
+     7
+    ],
+    "q_before": 0,
+    "q_after": 0,
+    "q_expected": 0
+   },
+   {
+    "input": 1,
+    "path": [
+     7,
+     3
+    ],
+    "q_before": 0,
+    "q_after": 0,
+    "q_expected": 0
+   },
+   {
+    "input": 3,
+    "path": [
+     3
+    ],
+    "q_before": 0,
+    "q_after": 0,
+    "q_expected": 0
+   },
+   {
+    "input": 2,
+    "path": [
+     3,
+     7,
+     5
+    ],
+    "q_before": 0,
+    "q_after": 0,
+    "q_expected": 0
+   },
+   {
+    "input": 3,
+    "path": [
+     5,
+     4,
+     0
+    ],
+    "q_before": 0,
+    "q_after": 1,
+    "q_expected": 1
+   },
+   {
+    "input": 2,
+    "path": [
+     0,
+     4
+    ],
+    "q_before": 1,
+    "q_after": 1,
+    "q_expected": 1
+   },
+   {
+    "input": 0,
+    "path": [
+     4,
+     6
+    ],
+    "q_before": 1,
+    "q_after": 1,
+    "q_expected": 1
+   },
+   {
+    "input": 1,
+    "path": [
+     6,
+     7,
+     3
+    ],
+    "q_before": 1,
+    "q_after": 0,
+    "q_expected": 0
+   },
+   {
+    "input": 0,
+    "path": [
+     3,
+     7
+    ],
+    "q_before": 0,
+    "q_after": 0,
+    "q_expected": 0
+   }
+  ]
+ },
+ "table2": [
+  [
+   "FF1",
+   "bflex",
+   19.1,
+   2.26
+  ],
+  [
+   "FF6",
+   "bflex",
+   33.1,
+   1.62
+  ],
+  [
+   "FF9",
+   "bflex",
+   60.6,
+   0.59
+  ],
+  [
+   "FF11",
+   "bflex",
+   40.9,
+   1.62
+  ],
+  [
+   "FF20",
+   "bflex",
+   31.5,
+   1.97
+  ],
+  [
+   "TGFF",
+   "tgff",
+   48.2,
+   1.53
+  ],
+  [
+   "S2CFF",
+   "prior",
+   63.6,
+   1.03
+  ],
+  [
+   "TCFF*",
+   "prior",
+   68.9,
+   0.49
+  ],
+  [
+   "CSFF*",
+   "prior",
+   61.6,
+   0.62
+  ],
+  [
+   "18TSPC*",
+   "prior",
+   61.4,
+   0.86
+  ],
+  [
+   "STPL",
+   "prior",
+   22.0,
+   2.69
+  ],
+  [
+   "REFF",
+   "prior",
+   57.0,
+   0.59
+  ],
+  [
+   "DCPL",
+   "prior",
+   31.7,
+   1.91
+  ],
+  [
+   "LCFF",
+   "prior",
+   68.7,
+   0.57
+  ],
+  [
+   "LiRFF",
+   "prior",
+   57.2,
+   0.68
+  ],
+  [
+   "SeGen",
+   "auto",
+   31.3,
+   2.25
+  ],
+  [
+   "SeGen",
+   "auto",
+   46.9,
+   0.64
+  ],
+  [
+   "SeGen",
+   "auto",
+   19.2,
+   2.63
+  ]
+ ],
+ "hist": {
+  "cff": [
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "count": [
+   1,
+   1,
+   10,
+   7,
+   23,
+   24,
+   76,
+   101,
+   225
+  ]
+ }
+}

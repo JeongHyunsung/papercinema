@@ -1,0 +1,1476 @@
+{
+ "L01": {
+  "asr": "a flipflop has one job on a rising clock capture d and hold it",
+  "matched": 14,
+  "parts": 15,
+  "words": [
+   {
+    "w": "A",
+    "t0": 0.0,
+    "t1": 0.08
+   },
+   {
+    "w": "flip-flop",
+    "t0": 0.08,
+    "t1": 0.72
+   },
+   {
+    "w": "has",
+    "t0": 0.72,
+    "t1": 0.96
+   },
+   {
+    "w": "one",
+    "t0": 0.96,
+    "t1": 1.2
+   },
+   {
+    "w": "job",
+    "t0": 1.2,
+    "t1": 1.76
+   },
+   {
+    "w": "on",
+    "t0": 1.76,
+    "t1": 1.92
+   },
+   {
+    "w": "a",
+    "t0": 1.92,
+    "t1": 2.08
+   },
+   {
+    "w": "rising",
+    "t0": 2.08,
+    "t1": 2.56
+   },
+   {
+    "w": "clock",
+    "t0": 2.56,
+    "t1": 3.04
+   },
+   {
+    "w": "capture",
+    "t0": 3.04,
+    "t1": 3.64
+   },
+   {
+    "w": "dee",
+    "t0": 3.64,
+    "t1": 3.84
+   },
+   {
+    "w": "and",
+    "t0": 3.84,
+    "t1": 4.04
+   },
+   {
+    "w": "hold",
+    "t0": 4.04,
+    "t1": 4.32
+   },
+   {
+    "w": "it",
+    "t0": 4.32,
+    "t1": 4.534
+   }
+  ],
+  "speech_end": 4.534
+ },
+ "L02": {
+  "asr": "this one from the earlier tool sea gen passes its test vector",
+  "matched": 12,
+  "parts": 12,
+  "words": [
+   {
+    "w": "This",
+    "t0": 0.0,
+    "t1": 0.24
+   },
+   {
+    "w": "one",
+    "t0": 0.24,
+    "t1": 0.52
+   },
+   {
+    "w": "from",
+    "t0": 0.52,
+    "t1": 0.64
+   },
+   {
+    "w": "the",
+    "t0": 0.64,
+    "t1": 0.8
+   },
+   {
+    "w": "earlier",
+    "t0": 0.8,
+    "t1": 1.24
+   },
+   {
+    "w": "tool",
+    "t0": 1.24,
+    "t1": 1.6
+   },
+   {
+    "w": "See-Jen",
+    "t0": 1.6,
+    "t1": 2.4
+   },
+   {
+    "w": "passes",
+    "t0": 2.4,
+    "t1": 2.88
+   },
+   {
+    "w": "its",
+    "t0": 2.88,
+    "t1": 3.16
+   },
+   {
+    "w": "test",
+    "t0": 3.16,
+    "t1": 3.48
+   },
+   {
+    "w": "vector",
+    "t0": 3.48,
+    "t1": 3.916
+   }
+  ],
+  "speech_end": 3.916
+ },
+ "L03": {
+  "asr": "change one transition and it out puts zero where it must output one",
+  "matched": 12,
+  "parts": 12,
+  "words": [
+   {
+    "w": "Change",
+    "t0": 0.0,
+    "t1": 0.4
+   },
+   {
+    "w": "one",
+    "t0": 0.4,
+    "t1": 0.64
+   },
+   {
+    "w": "transition",
+    "t0": 0.64,
+    "t1": 1.36
+   },
+   {
+    "w": "and",
+    "t0": 1.36,
+    "t1": 1.6
+   },
+   {
+    "w": "it",
+    "t0": 1.6,
+    "t1": 1.76
+   },
+   {
+    "w": "outputs",
+    "t0": 1.76,
+    "t1": 2.28
+   },
+   {
+    "w": "zero",
+    "t0": 2.28,
+    "t1": 2.88
+   },
+   {
+    "w": "where",
+    "t0": 2.88,
+    "t1": 3.04
+   },
+   {
+    "w": "it",
+    "t0": 3.04,
+    "t1": 3.2
+   },
+   {
+    "w": "must",
+    "t0": 3.2,
+    "t1": 3.48
+   },
+   {
+    "w": "output",
+    "t0": 3.48,
+    "t1": 4.0
+   },
+   {
+    "w": "one",
+    "t0": 4.0,
+    "t1": 4.239
+   }
+  ],
+  "speech_end": 4.239
+ },
+ "L04": {
+  "asr": "the fliplop can be modelled as a state machine with three state bits candidate tables exceed ten to the nineteenth",
+  "matched": 19,
+  "parts": 21,
+  "words": [
+   {
+    "w": "A",
+    "t0": 0.0,
+    "t1": 0.36
+   },
+   {
+    "w": "flip-flop",
+    "t0": 0.36,
+    "t1": 0.72
+   },
+   {
+    "w": "can",
+    "t0": 0.72,
+    "t1": 0.88
+   },
+   {
+    "w": "be",
+    "t0": 0.88,
+    "t1": 1.0
+   },
+   {
+    "w": "modeled",
+    "t0": 1.0,
+    "t1": 1.44
+   },
+   {
+    "w": "as",
+    "t0": 1.44,
+    "t1": 1.6
+   },
+   {
+    "w": "a",
+    "t0": 1.6,
+    "t1": 1.76
+   },
+   {
+    "w": "state",
+    "t0": 1.76,
+    "t1": 2.0
+   },
+   {
+    "w": "machine",
+    "t0": 2.0,
+    "t1": 2.84
+   },
+   {
+    "w": "With",
+    "t0": 2.84,
+    "t1": 3.12
+   },
+   {
+    "w": "three",
+    "t0": 3.12,
+    "t1": 3.52
+   },
+   {
+    "w": "state",
+    "t0": 3.52,
+    "t1": 3.84
+   },
+   {
+    "w": "bits",
+    "t0": 3.84,
+    "t1": 4.44
+   },
+   {
+    "w": "candidate",
+    "t0": 4.44,
+    "t1": 5.12
+   },
+   {
+    "w": "tables",
+    "t0": 5.12,
+    "t1": 5.64
+   },
+   {
+    "w": "exceed",
+    "t0": 5.64,
+    "t1": 6.08
+   },
+   {
+    "w": "ten",
+    "t0": 6.08,
+    "t1": 6.4
+   },
+   {
+    "w": "to",
+    "t0": 6.4,
+    "t1": 6.56
+   },
+   {
+    "w": "the",
+    "t0": 6.56,
+    "t1": 6.72
+   },
+   {
+    "w": "nineteenth",
+    "t0": 6.72,
+    "t1": 7.301
+   }
+  ],
+  "speech_end": 7.301
+ },
+ "L05": {
+  "asr": "beyond brute force",
+  "matched": 3,
+  "parts": 3,
+  "words": [
+   {
+    "w": "Beyond",
+    "t0": 0.0,
+    "t1": 0.4
+   },
+   {
+    "w": "brute",
+    "t0": 0.4,
+    "t1": 0.84
+   },
+   {
+    "w": "force",
+    "t0": 0.84,
+    "t1": 1.283
+   }
+  ],
+  "speech_end": 1.283
+ },
+ "L06": {
+  "asr": "be flex starts from behavior instead",
+  "matched": 6,
+  "parts": 6,
+  "words": [
+   {
+    "w": "Bee-Flex",
+    "t0": 0.0,
+    "t1": 0.56
+   },
+   {
+    "w": "starts",
+    "t0": 0.56,
+    "t1": 0.88
+   },
+   {
+    "w": "from",
+    "t0": 0.88,
+    "t1": 1.04
+   },
+   {
+    "w": "behavior",
+    "t0": 1.04,
+    "t1": 1.68
+   },
+   {
+    "w": "instead",
+    "t0": 1.68,
+    "t1": 2.317
+   }
+  ],
+  "speech_end": 2.317
+ },
+ "L07": {
+  "asr": "its reference behavior graf covers every input order a d flit flop must handle",
+  "matched": 14,
+  "parts": 14,
+  "words": [
+   {
+    "w": "Its",
+    "t0": 0.0,
+    "t1": 0.16
+   },
+   {
+    "w": "reference",
+    "t0": 0.16,
+    "t1": 0.64
+   },
+   {
+    "w": "behavior",
+    "t0": 0.64,
+    "t1": 1.24
+   },
+   {
+    "w": "graph",
+    "t0": 1.24,
+    "t1": 1.76
+   },
+   {
+    "w": "covers",
+    "t0": 1.76,
+    "t1": 2.28
+   },
+   {
+    "w": "every",
+    "t0": 2.28,
+    "t1": 2.6
+   },
+   {
+    "w": "input",
+    "t0": 2.6,
+    "t1": 3.12
+   },
+   {
+    "w": "order",
+    "t0": 3.12,
+    "t1": 3.44
+   },
+   {
+    "w": "a",
+    "t0": 3.44,
+    "t1": 3.64
+   },
+   {
+    "w": "dee",
+    "t0": 3.64,
+    "t1": 3.76
+   },
+   {
+    "w": "flip-flop",
+    "t0": 3.76,
+    "t1": 4.44
+   },
+   {
+    "w": "must",
+    "t0": 4.44,
+    "t1": 4.68
+   },
+   {
+    "w": "handle",
+    "t0": 4.68,
+    "t1": 5.084
+   }
+  ],
+  "speech_end": 5.084
+ },
+ "L08": {
+  "asr": "the failing sequence is one path through it and the graf requires qu to stay at one where c gen twenty gave zero",
+  "matched": 23,
+  "parts": 23,
+  "words": [
+   {
+    "w": "The",
+    "t0": 0.0,
+    "t1": 0.16
+   },
+   {
+    "w": "failing",
+    "t0": 0.16,
+    "t1": 0.56
+   },
+   {
+    "w": "sequence",
+    "t0": 0.56,
+    "t1": 1.08
+   },
+   {
+    "w": "is",
+    "t0": 1.08,
+    "t1": 1.28
+   },
+   {
+    "w": "one",
+    "t0": 1.28,
+    "t1": 1.56
+   },
+   {
+    "w": "path",
+    "t0": 1.56,
+    "t1": 1.92
+   },
+   {
+    "w": "through",
+    "t0": 1.92,
+    "t1": 2.2
+   },
+   {
+    "w": "it",
+    "t0": 2.2,
+    "t1": 2.56
+   },
+   {
+    "w": "And",
+    "t0": 2.56,
+    "t1": 2.8
+   },
+   {
+    "w": "the",
+    "t0": 2.8,
+    "t1": 3.0
+   },
+   {
+    "w": "graph",
+    "t0": 3.0,
+    "t1": 3.36
+   },
+   {
+    "w": "requires",
+    "t0": 3.36,
+    "t1": 3.96
+   },
+   {
+    "w": "queue",
+    "t0": 3.96,
+    "t1": 4.28
+   },
+   {
+    "w": "to",
+    "t0": 4.28,
+    "t1": 4.44
+   },
+   {
+    "w": "stay",
+    "t0": 4.44,
+    "t1": 4.68
+   },
+   {
+    "w": "at",
+    "t0": 4.68,
+    "t1": 4.88
+   },
+   {
+    "w": "one",
+    "t0": 4.88,
+    "t1": 5.24
+   },
+   {
+    "w": "where",
+    "t0": 5.24,
+    "t1": 5.6
+   },
+   {
+    "w": "See-Jen",
+    "t0": 5.6,
+    "t1": 6.08
+   },
+   {
+    "w": "twenty",
+    "t0": 6.08,
+    "t1": 6.52
+   },
+   {
+    "w": "gave",
+    "t0": 6.52,
+    "t1": 6.76
+   },
+   {
+    "w": "zero",
+    "t0": 6.76,
+    "t1": 7.289
+   }
+  ],
+  "speech_end": 7.289
+ },
+ "L09": {
+  "asr": "candidates grow one stable transition at a time and each must match an edge of the reference graf",
+  "matched": 18,
+  "parts": 18,
+  "words": [
+   {
+    "w": "Candidates",
+    "t0": 0.0,
+    "t1": 0.68
+   },
+   {
+    "w": "grow",
+    "t0": 0.68,
+    "t1": 1.04
+   },
+   {
+    "w": "one",
+    "t0": 1.04,
+    "t1": 1.32
+   },
+   {
+    "w": "stable",
+    "t0": 1.32,
+    "t1": 1.8
+   },
+   {
+    "w": "transition",
+    "t0": 1.8,
+    "t1": 2.48
+   },
+   {
+    "w": "at",
+    "t0": 2.48,
+    "t1": 2.68
+   },
+   {
+    "w": "a",
+    "t0": 2.68,
+    "t1": 2.84
+   },
+   {
+    "w": "time",
+    "t0": 2.84,
+    "t1": 3.32
+   },
+   {
+    "w": "and",
+    "t0": 3.32,
+    "t1": 3.6
+   },
+   {
+    "w": "each",
+    "t0": 3.6,
+    "t1": 3.92
+   },
+   {
+    "w": "must",
+    "t0": 3.92,
+    "t1": 4.24
+   },
+   {
+    "w": "match",
+    "t0": 4.24,
+    "t1": 4.56
+   },
+   {
+    "w": "an",
+    "t0": 4.56,
+    "t1": 4.72
+   },
+   {
+    "w": "edge",
+    "t0": 4.72,
+    "t1": 5.04
+   },
+   {
+    "w": "of",
+    "t0": 5.04,
+    "t1": 5.12
+   },
+   {
+    "w": "the",
+    "t0": 5.12,
+    "t1": 5.24
+   },
+   {
+    "w": "reference",
+    "t0": 5.24,
+    "t1": 5.8
+   },
+   {
+    "w": "graph",
+    "t0": 5.8,
+    "t1": 6.147
+   }
+  ],
+  "speech_end": 6.147
+ },
+ "L10": {
+  "asr": "here the clock falls so queue must stay at zero two candidate states would output one so those branches are pruned",
+  "matched": 21,
+  "parts": 21,
+  "words": [
+   {
+    "w": "Here",
+    "t0": 0.0,
+    "t1": 0.32
+   },
+   {
+    "w": "the",
+    "t0": 0.32,
+    "t1": 0.52
+   },
+   {
+    "w": "clock",
+    "t0": 0.52,
+    "t1": 0.88
+   },
+   {
+    "w": "falls",
+    "t0": 0.88,
+    "t1": 1.36
+   },
+   {
+    "w": "so",
+    "t0": 1.36,
+    "t1": 1.6
+   },
+   {
+    "w": "queue",
+    "t0": 1.6,
+    "t1": 1.92
+   },
+   {
+    "w": "must",
+    "t0": 1.92,
+    "t1": 2.16
+   },
+   {
+    "w": "stay",
+    "t0": 2.16,
+    "t1": 2.4
+   },
+   {
+    "w": "at",
+    "t0": 2.4,
+    "t1": 2.56
+   },
+   {
+    "w": "zero",
+    "t0": 2.56,
+    "t1": 3.36
+   },
+   {
+    "w": "Two",
+    "t0": 3.36,
+    "t1": 3.8
+   },
+   {
+    "w": "candidate",
+    "t0": 3.8,
+    "t1": 4.48
+   },
+   {
+    "w": "states",
+    "t0": 4.48,
+    "t1": 4.84
+   },
+   {
+    "w": "would",
+    "t0": 4.84,
+    "t1": 5.0
+   },
+   {
+    "w": "output",
+    "t0": 5.0,
+    "t1": 5.48
+   },
+   {
+    "w": "one",
+    "t0": 5.48,
+    "t1": 5.76
+   },
+   {
+    "w": "so",
+    "t0": 5.76,
+    "t1": 5.96
+   },
+   {
+    "w": "those",
+    "t0": 5.96,
+    "t1": 6.24
+   },
+   {
+    "w": "branches",
+    "t0": 6.24,
+    "t1": 6.84
+   },
+   {
+    "w": "are",
+    "t0": 6.84,
+    "t1": 7.0
+   },
+   {
+    "w": "pruned",
+    "t0": 7.0,
+    "t1": 7.444
+   }
+  ],
+  "speech_end": 7.444
+ },
+ "L11": {
+  "asr": "deeper in a settling path needs a table entry that an earlier transition set differently that entry conflict prunes the branch",
+  "matched": 21,
+  "parts": 21,
+  "words": [
+   {
+    "w": "Deeper",
+    "t0": 0.0,
+    "t1": 0.4
+   },
+   {
+    "w": "in",
+    "t0": 0.4,
+    "t1": 0.68
+   },
+   {
+    "w": "a",
+    "t0": 0.68,
+    "t1": 0.88
+   },
+   {
+    "w": "settling",
+    "t0": 0.88,
+    "t1": 1.44
+   },
+   {
+    "w": "path",
+    "t0": 1.44,
+    "t1": 1.8
+   },
+   {
+    "w": "needs",
+    "t0": 1.8,
+    "t1": 2.16
+   },
+   {
+    "w": "a",
+    "t0": 2.16,
+    "t1": 2.28
+   },
+   {
+    "w": "table",
+    "t0": 2.28,
+    "t1": 2.68
+   },
+   {
+    "w": "entry",
+    "t0": 2.68,
+    "t1": 3.2
+   },
+   {
+    "w": "that",
+    "t0": 3.2,
+    "t1": 3.36
+   },
+   {
+    "w": "an",
+    "t0": 3.36,
+    "t1": 3.52
+   },
+   {
+    "w": "earlier",
+    "t0": 3.52,
+    "t1": 4.0
+   },
+   {
+    "w": "transition",
+    "t0": 4.0,
+    "t1": 4.72
+   },
+   {
+    "w": "set",
+    "t0": 4.72,
+    "t1": 5.12
+   },
+   {
+    "w": "differently",
+    "t0": 5.12,
+    "t1": 6.0
+   },
+   {
+    "w": "That",
+    "t0": 6.0,
+    "t1": 6.32
+   },
+   {
+    "w": "entry",
+    "t0": 6.32,
+    "t1": 6.76
+   },
+   {
+    "w": "conflict",
+    "t0": 6.76,
+    "t1": 7.36
+   },
+   {
+    "w": "prunes",
+    "t0": 7.36,
+    "t1": 7.8
+   },
+   {
+    "w": "the",
+    "t0": 7.8,
+    "t1": 7.96
+   },
+   {
+    "w": "branch",
+    "t0": 7.96,
+    "t1": 8.38
+   }
+  ],
+  "speech_end": 8.38
+ },
+ "L12": {
+  "asr": "cruning early makes the two bit search twenty thousand times faster than brute force",
+  "matched": 14,
+  "parts": 14,
+  "words": [
+   {
+    "w": "Pruning",
+    "t0": 0.0,
+    "t1": 0.36
+   },
+   {
+    "w": "early",
+    "t0": 0.36,
+    "t1": 0.72
+   },
+   {
+    "w": "makes",
+    "t0": 0.72,
+    "t1": 0.96
+   },
+   {
+    "w": "the",
+    "t0": 0.96,
+    "t1": 1.08
+   },
+   {
+    "w": "two-bit",
+    "t0": 1.08,
+    "t1": 1.56
+   },
+   {
+    "w": "search",
+    "t0": 1.56,
+    "t1": 1.96
+   },
+   {
+    "w": "twenty",
+    "t0": 1.96,
+    "t1": 2.4
+   },
+   {
+    "w": "thousand",
+    "t0": 2.4,
+    "t1": 2.84
+   },
+   {
+    "w": "times",
+    "t0": 2.84,
+    "t1": 3.24
+   },
+   {
+    "w": "faster",
+    "t0": 3.24,
+    "t1": 3.72
+   },
+   {
+    "w": "than",
+    "t0": 3.72,
+    "t1": 3.92
+   },
+   {
+    "w": "brute",
+    "t0": 3.92,
+    "t1": 4.32
+   },
+   {
+    "w": "force",
+    "t0": 4.32,
+    "t1": 4.726
+   }
+  ],
+  "speech_end": 4.726
+ },
+ "L13": {
+  "asr": "three state bits b flex finds all five hundred sixty eight million valid state machines in its search space in about thirteen minutes",
+  "matched": 23,
+  "parts": 24,
+  "words": [
+   {
+    "w": "At",
+    "t0": 0.0,
+    "t1": 0.04
+   },
+   {
+    "w": "three",
+    "t0": 0.04,
+    "t1": 0.48
+   },
+   {
+    "w": "state",
+    "t0": 0.48,
+    "t1": 0.8
+   },
+   {
+    "w": "bits",
+    "t0": 0.8,
+    "t1": 1.52
+   },
+   {
+    "w": "Bee-Flex",
+    "t0": 1.52,
+    "t1": 2.16
+   },
+   {
+    "w": "finds",
+    "t0": 2.16,
+    "t1": 2.64
+   },
+   {
+    "w": "all",
+    "t0": 2.64,
+    "t1": 2.88
+   },
+   {
+    "w": "five",
+    "t0": 2.88,
+    "t1": 3.28
+   },
+   {
+    "w": "hundred",
+    "t0": 3.28,
+    "t1": 3.64
+   },
+   {
+    "w": "sixty-eight",
+    "t0": 3.64,
+    "t1": 4.32
+   },
+   {
+    "w": "million",
+    "t0": 4.32,
+    "t1": 4.76
+   },
+   {
+    "w": "valid",
+    "t0": 4.76,
+    "t1": 5.16
+   },
+   {
+    "w": "state",
+    "t0": 5.16,
+    "t1": 5.44
+   },
+   {
+    "w": "machines",
+    "t0": 5.44,
+    "t1": 5.96
+   },
+   {
+    "w": "in",
+    "t0": 5.96,
+    "t1": 6.12
+   },
+   {
+    "w": "its",
+    "t0": 6.12,
+    "t1": 6.32
+   },
+   {
+    "w": "search",
+    "t0": 6.32,
+    "t1": 6.64
+   },
+   {
+    "w": "space",
+    "t0": 6.64,
+    "t1": 7.2
+   },
+   {
+    "w": "in",
+    "t0": 7.2,
+    "t1": 7.44
+   },
+   {
+    "w": "about",
+    "t0": 7.44,
+    "t1": 7.76
+   },
+   {
+    "w": "thirteen",
+    "t0": 7.76,
+    "t1": 8.32
+   },
+   {
+    "w": "minutes",
+    "t0": 8.32,
+    "t1": 8.726
+   }
+  ],
+  "speech_end": 8.726
+ },
+ "L14": {
+  "asr": "twenty of the four hundred sixty eight simplest were sampled and turned into transistor level schematics",
+  "matched": 16,
+  "parts": 16,
+  "words": [
+   {
+    "w": "Twenty",
+    "t0": 0.0,
+    "t1": 0.36
+   },
+   {
+    "w": "of",
+    "t0": 0.36,
+    "t1": 0.48
+   },
+   {
+    "w": "the",
+    "t0": 0.48,
+    "t1": 0.64
+   },
+   {
+    "w": "four",
+    "t0": 0.64,
+    "t1": 0.96
+   },
+   {
+    "w": "hundred",
+    "t0": 0.96,
+    "t1": 1.32
+   },
+   {
+    "w": "sixty-eight",
+    "t0": 1.32,
+    "t1": 1.96
+   },
+   {
+    "w": "simplest",
+    "t0": 1.96,
+    "t1": 2.72
+   },
+   {
+    "w": "were",
+    "t0": 2.72,
+    "t1": 2.96
+   },
+   {
+    "w": "sampled",
+    "t0": 2.96,
+    "t1": 3.68
+   },
+   {
+    "w": "and",
+    "t0": 3.68,
+    "t1": 3.96
+   },
+   {
+    "w": "turned",
+    "t0": 3.96,
+    "t1": 4.36
+   },
+   {
+    "w": "into",
+    "t0": 4.36,
+    "t1": 4.64
+   },
+   {
+    "w": "transistor-level",
+    "t0": 4.64,
+    "t1": 5.68
+   },
+   {
+    "w": "schematics",
+    "t0": 5.68,
+    "t1": 6.355
+   }
+  ],
+  "speech_end": 6.355
+ },
+ "L15": {
+  "asr": "one of them is f one when the clock rises its state settles in two steps and qu flips on the first",
+  "matched": 22,
+  "parts": 23,
+  "words": [
+   {
+    "w": "One",
+    "t0": 0.0,
+    "t1": 0.16
+   },
+   {
+    "w": "of",
+    "t0": 0.16,
+    "t1": 0.32
+   },
+   {
+    "w": "them",
+    "t0": 0.32,
+    "t1": 0.56
+   },
+   {
+    "w": "is",
+    "t0": 0.56,
+    "t1": 0.78
+   },
+   {
+    "w": "F",
+    "t0": 0.78,
+    "t1": 1.0
+   },
+   {
+    "w": "F",
+    "t0": 1.0,
+    "t1": 1.36
+   },
+   {
+    "w": "one",
+    "t0": 1.36,
+    "t1": 1.8
+   },
+   {
+    "w": "When",
+    "t0": 1.8,
+    "t1": 2.08
+   },
+   {
+    "w": "the",
+    "t0": 2.08,
+    "t1": 2.28
+   },
+   {
+    "w": "clock",
+    "t0": 2.28,
+    "t1": 2.68
+   },
+   {
+    "w": "rises",
+    "t0": 2.68,
+    "t1": 3.32
+   },
+   {
+    "w": "its",
+    "t0": 3.32,
+    "t1": 3.64
+   },
+   {
+    "w": "state",
+    "t0": 3.64,
+    "t1": 3.92
+   },
+   {
+    "w": "settles",
+    "t0": 3.92,
+    "t1": 4.4
+   },
+   {
+    "w": "in",
+    "t0": 4.4,
+    "t1": 4.6
+   },
+   {
+    "w": "two",
+    "t0": 4.6,
+    "t1": 4.8
+   },
+   {
+    "w": "steps",
+    "t0": 4.8,
+    "t1": 5.32
+   },
+   {
+    "w": "and",
+    "t0": 5.32,
+    "t1": 5.56
+   },
+   {
+    "w": "queue",
+    "t0": 5.56,
+    "t1": 5.88
+   },
+   {
+    "w": "flips",
+    "t0": 5.88,
+    "t1": 6.32
+   },
+   {
+    "w": "on",
+    "t0": 6.32,
+    "t1": 6.44
+   },
+   {
+    "w": "the",
+    "t0": 6.44,
+    "t1": 6.64
+   },
+   {
+    "w": "first",
+    "t0": 6.64,
+    "t1": 7.001
+   }
+  ],
+  "speech_end": 7.001
+ },
+ "L16": {
+  "asr": "in spice at zero point nine volts its sequencing overhead is two point five three times lower than a transmission gate flip flops",
+  "matched": 23,
+  "parts": 23,
+  "words": [
+   {
+    "w": "In",
+    "t0": 0.04,
+    "t1": 0.2
+   },
+   {
+    "w": "spice",
+    "t0": 0.2,
+    "t1": 0.72
+   },
+   {
+    "w": "at",
+    "t0": 0.72,
+    "t1": 0.92
+   },
+   {
+    "w": "zero",
+    "t0": 0.92,
+    "t1": 1.44
+   },
+   {
+    "w": "point",
+    "t0": 1.44,
+    "t1": 1.72
+   },
+   {
+    "w": "nine",
+    "t0": 1.72,
+    "t1": 2.04
+   },
+   {
+    "w": "volts",
+    "t0": 2.04,
+    "t1": 2.68
+   },
+   {
+    "w": "its",
+    "t0": 2.68,
+    "t1": 3.0
+   },
+   {
+    "w": "sequencing",
+    "t0": 3.0,
+    "t1": 3.72
+   },
+   {
+    "w": "overhead",
+    "t0": 3.72,
+    "t1": 4.28
+   },
+   {
+    "w": "is",
+    "t0": 4.28,
+    "t1": 4.52
+   },
+   {
+    "w": "two",
+    "t0": 4.52,
+    "t1": 4.8
+   },
+   {
+    "w": "point",
+    "t0": 4.8,
+    "t1": 5.2
+   },
+   {
+    "w": "five",
+    "t0": 5.2,
+    "t1": 5.6
+   },
+   {
+    "w": "three",
+    "t0": 5.6,
+    "t1": 5.84
+   },
+   {
+    "w": "times",
+    "t0": 5.84,
+    "t1": 6.2
+   },
+   {
+    "w": "lower",
+    "t0": 6.2,
+    "t1": 6.72
+   },
+   {
+    "w": "than",
+    "t0": 6.72,
+    "t1": 6.92
+   },
+   {
+    "w": "a",
+    "t0": 6.92,
+    "t1": 7.08
+   },
+   {
+    "w": "transmission-gate",
+    "t0": 7.08,
+    "t1": 8.08
+   },
+   {
+    "w": "flip-flop's",
+    "t0": 8.08,
+    "t1": 8.816
+   }
+  ],
+  "speech_end": 8.816
+ },
+ "L17": {
+  "asr": "that a higher energy cost",
+  "matched": 5,
+  "parts": 5,
+  "words": [
+   {
+    "w": "at",
+    "t0": 0.0,
+    "t1": 0.12
+   },
+   {
+    "w": "a",
+    "t0": 0.12,
+    "t1": 0.24
+   },
+   {
+    "w": "higher",
+    "t0": 0.24,
+    "t1": 0.56
+   },
+   {
+    "w": "energy",
+    "t0": 0.56,
+    "t1": 1.04
+   },
+   {
+    "w": "cost",
+    "t0": 1.04,
+    "t1": 1.441
+   }
+  ],
+  "speech_end": 1.441
+ },
+ "L18": {
+  "asr": "b flex a broader flit flop designed space searched exhaustively",
+  "matched": 10,
+  "parts": 10,
+  "words": [
+   {
+    "w": "Bee-Flex",
+    "t0": 0.0,
+    "t1": 0.8
+   },
+   {
+    "w": "A",
+    "t0": 0.8,
+    "t1": 1.04
+   },
+   {
+    "w": "broader",
+    "t0": 1.04,
+    "t1": 1.44
+   },
+   {
+    "w": "flip-flop",
+    "t0": 1.44,
+    "t1": 2.08
+   },
+   {
+    "w": "design",
+    "t0": 2.08,
+    "t1": 2.56
+   },
+   {
+    "w": "space",
+    "t0": 2.56,
+    "t1": 3.12
+   },
+   {
+    "w": "searched",
+    "t0": 3.12,
+    "t1": 3.6
+   },
+   {
+    "w": "exhaustively",
+    "t0": 3.6,
+    "t1": 4.461
+   }
+  ],
+  "speech_end": 4.461
+ }
+}

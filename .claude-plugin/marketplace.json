@@ -1,0 +1,14 @@
+{
+  "name": "papercinema",
+  "description": "Your paper as cinema, not slides: a verified, narrated explainer film and slide figures from a research paper.",
+  "owner": {
+    "name": "Hyunsung Jeong"
+  },
+  "plugins": [
+    {
+      "name": "research-paper-film",
+      "source": "./",
+      "description": "Turn a CS/EE research paper into a verified, narrated explainer film and slide figures: the mechanism rebuilt and animated, key results staged, every cut checked by an independent reviewer."
+    }
+  ]
+}
