@@ -12,28 +12,21 @@ A Claude Code skill that turns a CS/EE research paper into a narrated, code-rend
 
 <img src="docs/assets/bflex_teaser.gif" alt="17 seconds from the B-Flex explainer film: the search tries four next states for a flip-flop candidate, two of them output the wrong Q and their branches are pruned; then the 2-bit result of 18 valid machines grows into the 3-bit result, 568,832,054, drawn cell by cell" width="100%">
 
-<sub>17 s from the film it made for B-Flex (DAC 2026): the search prunes a wrong-output branch, then the 3-bit result lands. Every frame is drawn in code from the paper's method. The full 2-minute film is below.</sub>
+<sub>17 seconds from the B-Flex explainer film (DAC 2026) that inspired papercinema: the search prunes a wrong-output branch, then the 3-bit result lands. Every frame is drawn in code from the paper's method. The production this skill was distilled from.</sub>
 
 </div>
 
-### The full film
-
-<!-- FILM: in GitHub's web editor, drag readme_media/bflex_film_1080p30_github.mp4 (8.9 MB, under the 10 MB limit) onto the line below this comment; GitHub turns it into an inline player. Then delete this comment. -->
-
-*B-Flex: Exploration of Broader Flip-Flop Design Space Based on FSM Exhaustive Search (DAC 2026). 119 s, narrated and subtitled, mastered at 4K60. The production this skill was distilled from. Also on [LinkedIn](LINKEDIN_POST_URL).*
-
 ---
 
-## Not slides with a voice-over
+## Beyond narrated slides
 
-Tools such as [Paper2Video](https://arxiv.org/abs/2510.05096) and [ResearchStudio-Reel](https://microsoft.github.io/ResearchStudio/reel-page/) automate the *talk*: slides built from the paper, narration, and an avatar, cursor or highlights. papercinema makes an *explainer film*, and that changes three things.
+Tools such as [Paper2Video](https://arxiv.org/abs/2510.05096) and [ResearchStudio-Reel](https://microsoft.github.io/ResearchStudio/reel-page/) help turn research papers into narrated presentations. papercinema takes a different approach: it focuses on animating the paper's underlying mechanisms directly, rather than presenting them primarily through slides.
 
-| | Talk-video tools | papercinema |
-|---|---|---|
-| **The mechanism** | described on a slide, with the paper's static figures | rebuilt and checked against the paper's worked examples, then animated from its own trace: what each unit computes, what each buffer holds, element by element |
-| **The strengths** | a bullet or a chart | 3–6 planned peaks (setup → tension → reveal → hold), with the sound and the key word landing on the reveal. A peak never overstates its claim, and every result shows its trade-off within seconds. |
-| **The concepts** | separate pictures for separate ideas | one visual spine carried from the hook to the result; every finding is pinned to the element it is about |
-| **Checking** | none | an independent reviewer compares every cut with the paper; you review every K rounds |
+Three principles guide the workflow:
+
+- **Mechanism-driven animation.** Rebuild the paper's worked examples in code and animate the actual computation, state transitions, or data movement.
+- **Narrative continuity.** Carry a consistent visual representation from the problem through the method to the results, with key findings staged as deliberate moments.
+- **Independent review.** Use a separate reviewer agent to check the rendered film against the paper, with human feedback incorporated throughout the process.
 
 ## What you get
 
